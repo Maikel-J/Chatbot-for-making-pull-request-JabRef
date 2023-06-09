@@ -1,0 +1,9 @@
+title: pull request
+subtitle: Happy to help
+inputTextFieldHint: Type your message...
+initPayload: /greet
+hideWhenNotConnected: false
+customData:
+  language: en
+showFullScreenButton: true
+autoClearCache: false

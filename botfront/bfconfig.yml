@@ -1,0 +1,11 @@
+name: pull request
+namespace: bf-pull
+defaultLanguage: en
+nluThreshold: 0.7
+timezoneOffset: 0
+allowContextualQuestions: true
+instance:
+  name: Default Instance
+  host: 'http://rasa:5005'
+  projectId: KvAm6hXoWsnDzZdSx
+  token: 3a75df00-4035-4aa2-9fdf-1e9606cc710e

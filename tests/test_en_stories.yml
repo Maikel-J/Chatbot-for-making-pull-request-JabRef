@@ -1,0 +1,550 @@
+stories:
+  - story: test_story_translate
+    steps:
+      - user: /greet
+        intent: greet
+      - action: utter_A5A-wQ31K
+      - action: utter_ask_Walk through
+      - user: '/affirm[{"":""}]{"entity": ""}]{"entity": ""}'
+        intent: affirm
+      - action: utter_fUFMi49wL
+      - action: utter_IRVRkCWjk7
+      - user: /translate_q
+        intent: translate_q
+      - action: utter_oEIHH9C3W
+    metadata:
+      group: Main
+      language: en
+  - story: test_story_least_resistance
+    steps:
+      - user: /greet
+        intent: greet
+      - action: utter_A5A-wQ31K
+      - action: utter_ask_Walk through
+      - user: '/affirm[{"":""}]{"entity": ""}]{"entity": ""}'
+        intent: affirm
+      - action: utter_fUFMi49wL
+      - action: utter_IRVRkCWjk7
+      - user: '/no_account[{"":""}]{"entity": ""}]{"entity": ""}'
+        intent: no_account
+      - action: utter_e86DPNlTs
+      - user: /need_fork
+        intent: need_fork
+      - action: utter_sAMGr68v9
+      - user: /structural_changes
+        intent: structural_changes
+      - action: utter_c6KQsWyuG
+      - user: /multi_feature
+        intent: multi_feature
+      - action: utter_vb69LaoCs
+      - user: /deny
+        intent: deny
+      - action: utter_U7KPxxNxe
+      - user: /affirm
+        intent: affirm
+      - action: utter_TeYECOuCX
+      - user: /changelog
+        intent: changelog
+      - action: utter_Bi6QgS9GZ_
+      - action: utter_M__qpaHXE
+      - user: /credits
+        intent: credits
+      - action: utter_-Knw1xztN
+      - user: /keyboard_short
+        intent: keyboard_short
+      - action: utter_26r3DA5k7
+      - user: /testing
+        intent: testing
+      - action: utter_fud-Oc3X-
+      - user: /localization
+        intent: localization
+      - action: utter_MT3YB0mNa
+      - user: /library
+        intent: library
+      - action: utter_mP_yIx4hP
+      - user: '/commit_to_branch[{"":""}]{"entity": ""}]{"entity": ""}'
+        intent: commit_to_branch
+      - action: utter_WdWYdEVUT
+      - user: /pull_request
+        intent: pull_request
+      - action: utter_4YGmjnflN
+      - action: utter_fUhZNicNl
+      - action: utter_RAOIIAznZ
+      - action: utter_W6x0JwYKp
+      - user: /change_required
+        intent: change_required
+      - action: utter_rUI3-ssmp
+      - user: /deny
+        intent: deny
+      - action: utter_ZRI9q4X0y
+      - action: utter_mM9qJKmp0
+    metadata:
+      group: Main
+      language: en
+  - story: test_story_difficult_no_loop
+    steps:
+      - user: /greet
+        intent: greet
+      - action: utter_A5A-wQ31K
+      - action: utter_ask_Walk through
+      - user: '/affirm[{"":""}]{"entity": ""}]{"entity": ""}'
+        intent: affirm
+      - action: utter_fUFMi49wL
+      - action: utter_IRVRkCWjk7
+      - user: '/no_account[{"":""}]{"entity": ""}]{"entity": ""}'
+        intent: no_account
+      - action: utter_e86DPNlTs
+      - user: '/deny[{"":""}]{"entity": ""}]{"entity": ""}'
+        intent: deny
+      - action: utter_ymtwmAQsy
+      - action: utter_Rv18-IH3m
+      - user: /need_fork
+        intent: need_fork
+      - action: utter_sAMGr68v9
+      - user: '/deny[{"":""}]{"entity": ""}]{"entity": ""}'
+        intent: deny
+      - action: utter_rsXyjj3mY
+      - action: utter_0cb0lk3Vd
+      - action: utter_AgsAFZ1Uv
+      - user: '/structural_changes[{"":""}]{"entity": ""}]{"entity": ""}'
+        intent: structural_changes
+      - action: utter_c6KQsWyuG
+      - user: /affirm
+        intent: affirm
+      - action: utter_UDkRN80g1
+      - action: utter_Sj71U22ae
+      - action: utter_OrG4RXvqE
+      - action: utter_xUjF3-v5j
+      - user: /multi_feature
+        intent: multi_feature
+      - action: utter_vb69LaoCs
+      - user: /affirm
+        intent: affirm
+      - action: utter_DMAUUdI7C
+      - action: utter_62R1165KT
+      - user: /affirm
+        intent: affirm
+      - action: utter_KZgXJELaS
+      - user: /name_branch
+        intent: name_branch
+      - action: utter_MS59XggHM
+      - action: utter_KjssfNoyS
+      - action: utter_nfxzrIuP9
+      - user: /changelog
+        intent: changelog
+      - action: utter_Bi6QgS9GZ_
+      - action: utter_M__qpaHXE
+      - user: /deny
+        intent: deny
+      - action: utter_5805eSWQm
+      - action: utter_ayd6WVp2U
+      - user: /credits
+        intent: credits
+      - action: utter_-Knw1xztN
+      - user: /keyboard_short
+        intent: keyboard_short
+      - action: utter_26r3DA5k7
+      - user: /affirm
+        intent: affirm
+      - action: utter_3mMROMldr
+      - action: utter_SVXdxkzoGz
+      - user: /testing
+        intent: testing
+      - action: utter_fud-Oc3X-
+      - user: /deny
+        intent: deny
+      - action: utter_g-rQEv4Sp
+      - action: utter_eaxfqiNqI
+      - user: /localization
+        intent: localization
+      - action: utter_MT3YB0mNa
+      - user: /affirm
+        intent: affirm
+      - action: utter_IvCJX_HZx
+      - action: utter_Wq3NL0Akm
+      - user: /library
+        intent: library
+      - action: utter_mP_yIx4hP
+      - user: /affirm
+        intent: affirm
+      - action: utter_hp2UY9HlY
+      - action: utter_fPID78sfG
+      - user: /commit_to_branch
+        intent: commit_to_branch
+      - action: utter_WdWYdEVUT
+      - user: /how_commit
+        intent: how_commit
+      - action: utter_FmOkXNjYj
+      - action: utter_xC_aEy2Kk
+      - action: utter_4WncCwGsG
+      - action: utter_bUxUUD7kP
+      - user: /pull_request
+        intent: pull_request
+      - action: utter_4YGmjnflN
+      - action: utter_fUhZNicNl
+      - action: utter_RAOIIAznZ
+      - action: utter_W6x0JwYKp
+      - user: /change_required
+        intent: change_required
+      - action: utter_rUI3-ssmp
+      - user: /deny
+        intent: deny
+      - action: utter_ZRI9q4X0y
+      - action: utter_mM9qJKmp0
+    metadata:
+      group: Main
+      language: en
+  - story: test_story_least_res_loop_no_check
+    steps:
+      - user: /greet
+        intent: greet
+      - action: utter_A5A-wQ31K
+      - action: utter_ask_Walk through
+      - user: '/affirm[{"":""}]{"entity": ""}]{"entity": ""}'
+        intent: affirm
+      - action: utter_fUFMi49wL
+      - action: utter_IRVRkCWjk7
+      - user: '/no_account[{"":""}]{"entity": ""}]{"entity": ""}'
+        intent: no_account
+      - action: utter_e86DPNlTs
+      - user: /need_fork
+        intent: need_fork
+      - action: utter_sAMGr68v9
+      - user: /structural_changes
+        intent: structural_changes
+      - action: utter_c6KQsWyuG
+      - user: /multi_feature
+        intent: multi_feature
+      - action: utter_vb69LaoCs
+      - user: /deny
+        intent: deny
+      - action: utter_U7KPxxNxe
+      - user: /affirm
+        intent: affirm
+      - action: utter_TeYECOuCX
+      - user: /changelog
+        intent: changelog
+      - action: utter_Bi6QgS9GZ_
+      - action: utter_M__qpaHXE
+      - user: /credits
+        intent: credits
+      - action: utter_-Knw1xztN
+      - user: /keyboard_short
+        intent: keyboard_short
+      - action: utter_26r3DA5k7
+      - user: /testing
+        intent: testing
+      - action: utter_fud-Oc3X-
+      - user: /localization
+        intent: localization
+      - action: utter_MT3YB0mNa
+      - user: /library
+        intent: library
+      - action: utter_mP_yIx4hP
+      - user: '/commit_to_branch[{"":""}]{"entity": ""}]{"entity": ""}'
+        intent: commit_to_branch
+      - action: utter_WdWYdEVUT
+      - user: /pull_request
+        intent: pull_request
+      - action: utter_4YGmjnflN
+      - action: utter_fUhZNicNl
+      - action: utter_RAOIIAznZ
+      - action: utter_W6x0JwYKp
+      - user: /change_required
+        intent: change_required
+      - action: utter_rUI3-ssmp
+      - user: /affirm
+        intent: affirm
+      - action: utter_4NVcuvhkY
+      - action: utter_fU55WVRp5
+      - user: /comment_change
+        intent: comment_change
+      - action: utter_AUAqVUWJf
+      - action: utter_PWklFKGsN
+      - action: utter_TFsE7ss-E
+      - user: /change_required
+        intent: change_required
+      - action: utter_rUI3-ssmp
+      - user: /deny
+        intent: deny
+      - action: utter_ZRI9q4X0y
+      - action: utter_mM9qJKmp0
+    metadata:
+      group: Main
+      language: en
+  - story: test_story_least_res_loop_check
+    steps:
+      - user: /greet
+        intent: greet
+      - action: utter_A5A-wQ31K
+      - action: utter_ask_Walk through
+      - user: '/affirm[{"":""}]{"entity": ""}]{"entity": ""}'
+        intent: affirm
+      - action: utter_fUFMi49wL
+      - action: utter_IRVRkCWjk7
+      - user: '/no_account[{"":""}]{"entity": ""}]{"entity": ""}'
+        intent: no_account
+      - action: utter_e86DPNlTs
+      - user: /need_fork
+        intent: need_fork
+      - action: utter_sAMGr68v9
+      - user: /structural_changes
+        intent: structural_changes
+      - action: utter_c6KQsWyuG
+      - user: /multi_feature
+        intent: multi_feature
+      - action: utter_vb69LaoCs
+      - user: /deny
+        intent: deny
+      - action: utter_U7KPxxNxe
+      - user: /affirm
+        intent: affirm
+      - action: utter_TeYECOuCX
+      - user: /changelog
+        intent: changelog
+      - action: utter_Bi6QgS9GZ_
+      - action: utter_M__qpaHXE
+      - user: /credits
+        intent: credits
+      - action: utter_-Knw1xztN
+      - user: /keyboard_short
+        intent: keyboard_short
+      - action: utter_26r3DA5k7
+      - user: /testing
+        intent: testing
+      - action: utter_fud-Oc3X-
+      - user: /localization
+        intent: localization
+      - action: utter_MT3YB0mNa
+      - user: /library
+        intent: library
+      - action: utter_mP_yIx4hP
+      - user: '/commit_to_branch[{"":""}]{"entity": ""}]{"entity": ""}'
+        intent: commit_to_branch
+      - action: utter_WdWYdEVUT
+      - user: /pull_request
+        intent: pull_request
+      - action: utter_4YGmjnflN
+      - action: utter_fUhZNicNl
+      - action: utter_RAOIIAznZ
+      - action: utter_W6x0JwYKp
+      - user: /change_required
+        intent: change_required
+      - action: utter_rUI3-ssmp
+      - user: /affirm
+        intent: affirm
+      - action: utter_4NVcuvhkY
+      - action: utter_fU55WVRp5
+      - user: /changelog
+        intent: changelog
+      - action: utter_Bi6QgS9GZ_
+      - action: utter_M__qpaHXE
+      - user: /credits
+        intent: credits
+      - action: utter_-Knw1xztN
+      - user: /keyboard_short
+        intent: keyboard_short
+      - action: utter_26r3DA5k7
+      - user: /testing
+        intent: testing
+      - action: utter_fud-Oc3X-
+      - user: /localization
+        intent: localization
+      - action: utter_MT3YB0mNa
+      - user: /library
+        intent: library
+      - action: utter_mP_yIx4hP
+      - user: '/commit_to_branch[{"":""}]{"entity": ""}]{"entity": ""}'
+        intent: commit_to_branch
+      - action: utter_WdWYdEVUT
+      - user: /pull_request
+        intent: pull_request
+      - action: utter_4YGmjnflN
+      - action: utter_fUhZNicNl
+      - action: utter_RAOIIAznZ
+      - action: utter_W6x0JwYKp
+      - user: /change_required
+        intent: change_required
+      - action: utter_rUI3-ssmp
+      - user: /deny
+        intent: deny
+      - action: utter_ZRI9q4X0y
+      - action: utter_mM9qJKmp0
+    metadata:
+      group: Main
+      language: en
+  - story: test_story_nIdwKhk4F
+    steps:
+      - user: /greet
+        intent: greet
+      - action: utter_A5A-wQ31K
+      - action: utter_ask_Walk through
+      - user: '/affirm[{"":""}]{"entity": ""}]{"entity": ""}'
+        intent: affirm
+      - action: utter_fUFMi49wL
+      - action: utter_IRVRkCWjk7
+      - user: '/no_account[{"":""}]{"entity": ""}]{"entity": ""}'
+        intent: no_account
+      - action: utter_e86DPNlTs
+      - user: /need_fork
+        intent: need_fork
+      - action: utter_sAMGr68v9
+      - user: /structural_changes
+        intent: structural_changes
+      - action: utter_c6KQsWyuG
+      - user: /multi_feature
+        intent: multi_feature
+      - action: utter_vb69LaoCs
+      - user: /deny
+        intent: deny
+      - action: utter_U7KPxxNxe
+      - user: /affirm
+        intent: affirm
+      - action: utter_TeYECOuCX
+      - user: /changelog
+        intent: changelog
+      - action: utter_Bi6QgS9GZ_
+      - action: utter_M__qpaHXE
+      - user: /credits
+        intent: credits
+      - action: utter_-Knw1xztN
+      - user: /keyboard_short
+        intent: keyboard_short
+      - action: utter_26r3DA5k7
+      - user: /testing
+        intent: testing
+      - action: utter_fud-Oc3X-
+      - user: /localization
+        intent: localization
+      - action: utter_MT3YB0mNa
+      - user: /library
+        intent: library
+      - action: utter_mP_yIx4hP
+      - user: '/commit_to_branch[{"":""}]{"entity": ""}]{"entity": ""}'
+        intent: commit_to_branch
+      - action: utter_WdWYdEVUT
+      - user: /pull_request
+        intent: pull_request
+      - action: utter_4YGmjnflN
+      - action: utter_fUhZNicNl
+      - action: utter_RAOIIAznZ
+      - action: utter_W6x0JwYKp
+      - user: /change_required
+        intent: change_required
+      - action: utter_rUI3-ssmp
+      - user: /affirm
+        intent: affirm
+      - action: utter_4NVcuvhkY
+      - action: utter_fU55WVRp5
+      - user: /changelog
+        intent: changelog
+      - action: utter_Bi6QgS9GZ_
+      - action: utter_M__qpaHXE
+      - user: /credits
+        intent: credits
+      - action: utter_-Knw1xztN
+      - user: /keyboard_short
+        intent: keyboard_short
+      - action: utter_26r3DA5k7
+      - user: /testing
+        intent: testing
+      - action: utter_fud-Oc3X-
+      - user: /localization
+        intent: localization
+      - action: utter_MT3YB0mNa
+      - user: /library
+        intent: library
+      - action: utter_mP_yIx4hP
+      - user: '/commit_to_branch[{"":""}]{"entity": ""}]{"entity": ""}'
+        intent: commit_to_branch
+      - action: utter_WdWYdEVUT
+      - user: /pull_request
+        intent: pull_request
+      - action: utter_4YGmjnflN
+      - action: utter_fUhZNicNl
+      - action: utter_RAOIIAznZ
+      - action: utter_W6x0JwYKp
+      - user: /change_required
+        intent: change_required
+      - action: utter_rUI3-ssmp
+      - user: /deny
+        intent: deny
+      - action: utter_ZRI9q4X0y
+      - action: utter_mM9qJKmp0
+    metadata:
+      group: Main
+      language: en
+  - story: test_story_JJ4Fxkfb_
+    steps:
+      - user: /greet
+        intent: greet
+      - action: utter_A5A-wQ31K
+      - action: utter_ask_Walk through
+      - user: /affirm
+        intent: affirm
+      - action: utter_fUFMi49wL
+      - action: utter_IRVRkCWjk7
+      - user: '/no_account[{"":""}]{"entity": ""}'
+        intent: no_account
+      - action: utter_m5DAIlUEo
+      - action: utter_e86DPNlTs
+      - user: /need_fork
+        intent: need_fork
+      - action: utter_sAMGr68v9
+      - user: /structural_changes
+        intent: structural_changes
+      - action: utter_c6KQsWyuG
+      - user: /multi_feature
+        intent: multi_feature
+      - action: utter_vb69LaoCs
+      - user: /affirm
+        intent: affirm
+      - action: utter_DMAUUdI7C
+      - action: utter_62R1165KT
+      - user: /affirm
+        intent: affirm
+      - action: utter_KZgXJELaS
+      - user: /changelog
+        intent: changelog
+      - action: utter_Bi6QgS9GZ_
+      - action: utter_M__qpaHXE
+      - user: /credits
+        intent: credits
+      - action: utter_-Knw1xztN
+      - user: /keyboard_short
+        intent: keyboard_short
+      - action: utter_26r3DA5k7
+      - user: /affirm
+        intent: affirm
+      - action: utter_3mMROMldr
+      - action: utter_SVXdxkzoGz
+      - user: /testing
+        intent: testing
+      - action: utter_fud-Oc3X-
+      - user: /localization
+        intent: localization
+      - action: utter_MT3YB0mNa
+      - user: /affirm
+        intent: affirm
+      - action: utter_IvCJX_HZx
+      - action: utter_Wq3NL0Akm
+      - user: /library
+        intent: library
+      - action: utter_mP_yIx4hP
+      - user: /affirm
+        intent: affirm
+      - action: utter_hp2UY9HlY
+      - action: utter_fPID78sfG
+      - user: /commit_to_branch
+        intent: commit_to_branch
+      - action: utter_WdWYdEVUT
+      - user: /commit_message
+        intent: commit_message
+      - action: utter_KNeGn8Q-A
+      - user: /changelog
+        intent: changelog
+      - action: utter_Bi6QgS9GZ_
+      - action: utter_M__qpaHXE
+    metadata:
+      group: Main
+      language: en

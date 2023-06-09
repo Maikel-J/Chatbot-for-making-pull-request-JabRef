@@ -1,0 +1,628 @@
+version: "2.0"
+nlu:
+- intent: affirm
+  metadata:
+    language: en
+  examples:
+  - text: |
+      - correct
+    metadata:
+      canonical: true
+  - text: |
+      - indeed
+    metadata:
+      canonical: true
+  - text: |
+      - of course
+    metadata:
+      canonical: true
+  - text: |
+      - that sounds good
+    metadata:
+      canonical: true
+  - text: |
+      - y
+  - text: |
+      - yes
+  - text: |
+      Yes
+  - text: |
+      eys
+  - text: |
+      ready
+  - text: |
+      test
+  - text: |
+      yes
+- intent: bot_challenge
+  metadata:
+    language: en
+  examples:
+  - text: |
+      - am I talking to a bot?
+    metadata:
+      canonical: true
+  - text: |
+      - am I talking to a human?
+    metadata:
+      canonical: true
+  - text: |
+      - are you a bot?
+  - text: |
+      - are you a human?
+- intent: change_required
+  metadata:
+    language: en
+  examples:
+  - text: |
+      Can you provide some guidance on how to address feedback on a pull request?
+    metadata:
+      canonical: true
+  - text: |
+      Can you provide some guidance on how to effectively address feedback on a pull request?
+  - text: |
+      My pull request requires changes what should I do?
+  - text: |
+      What are some best practices for handling requested changes to a pull request?
+  - text: |
+      What should I consider when making changes to a pull request to ensure that it is accepted?
+  - text: |
+      What should I do after receiving feedback on my pull request?
+  - text: |
+      What should I do if my pull request requires changes?
+  - text: |
+      what should I do if the pull request requires changes?
+- intent: changelog
+  metadata:
+    language: en
+  examples:
+  - text: |
+      Can you advise me on where to document my changes?
+  - text: |
+      Can you provide some tips on how to write an effective changelog?
+  - text: |
+      How can I ensure that my changes are properly documented?
+  - text: |
+      How can I make sure that the changes I make to the changelog are relevant and useful?
+  - text: |
+      How do I know what to include in the changelog?
+  - text: |
+      What are some best practices for documenting changes in a project?
+  - text: |
+      What are the guidelines for updating the changelog?
+  - text: |
+      What is the recommended place to document changes in a project?
+  - text: |
+      What should I add to the changlog?
+    metadata:
+      canonical: true
+  - text: |
+      What should I consider when making changes to the changelog?
+  - text: |
+      Where is the appropriate location to record my modifications?
+  - text: |
+      how do I add something to the changelog?
+  - text: |
+      what should I add to the changelog?
+- intent: comment_change
+  metadata:
+    language: en
+  examples:
+  - text: |
+      I like icecream
+    metadata:
+      canonical: true
+- intent: commit_message
+  metadata:
+    language: en
+  examples:
+  - text: |
+      Can you provide some tips on how to write effective commit messages?
+    metadata:
+      canonical: true
+  - text: |
+      Could you explain the importance of writing clear and concise commit messages?
+  - text: |
+      How can I ensure that my commit messages are informative and helpful for other developers?
+  - text: |
+      What are the best practices for writing a good commit message?
+  - text: |
+      What are the key elements of a good commit message?
+  - text: |
+      how do I write a good commit message for my commit?
+  - text: |
+      how to write a good commit message?
+- intent: commit_to_branch
+  metadata:
+    language: en
+  examples:
+  - text: |
+      Can you explain how I can commit changes to my branch?
+  - text: |
+      Could you walk me through the steps of committing changes to my branch?
+  - text: |
+      How do I commit my changes to my branch?
+    metadata:
+      canonical: true
+  - text: |
+      I am unsure of how to commit changes to my branch, could you guide me?
+  - text: |
+      What are the steps involved in committing changes to my branch?
+  - text: |
+      What is the process for committing changes to my branch?
+  - text: |
+      commit to branch
+  - text: |
+      how do I commit my code?
+  - text: |
+      how do I make a commit?
+- intent: contribute
+  metadata:
+    language: en
+  examples:
+  - text: |
+      How can I contribute by coding?
+  - text: |
+      How can I contribute to the project?
+  - text: |
+      How can I contribute?
+    metadata:
+      canonical: true
+  - text: |
+      How do I contribute to the project?
+- intent: credits
+  metadata:
+    language: en
+  examples:
+  - text: |
+      Can you provide some guidance on how to handle authorship attribution in JavaDoc?
+    metadata:
+      canonical: true
+  - text: |
+      How do I ensure that my contributions are properly credited in the documentation?
+  - text: |
+      Is it appropriate to add myself as an author in the JavaDoc?
+  - text: |
+      Should I add myself to the JavaDoc's authors?
+  - text: |
+      What should I consider when determining whether or not to add myself as an author in the JavaDoc?
+  - text: |
+      how should I credit myself
+- intent: deny
+  metadata:
+    language: en
+  examples:
+  - text: |
+      - I don't think so
+    metadata:
+      canonical: true
+  - text: |
+      - don't like that
+    metadata:
+      canonical: true
+  - text: |
+      - n
+  - text: |
+      - never
+    metadata:
+      canonical: true
+  - text: |
+      - no
+  - text: |
+      - no way
+    metadata:
+      canonical: true
+  - text: |
+      - not really
+    metadata:
+      canonical: true
+  - text: |
+      No
+  - text: |
+      deny
+  - text: |
+      no
+- intent: formal_requierments?
+  metadata:
+    language: en
+  examples:
+  - text: |
+      Can you explain the formal requirements that must be satisfied?
+    metadata:
+      canonical: true
+  - text: |
+      I am unclear about the formal demands, could you provide some clarification?
+  - text: |
+      What are the formal prerequisites?
+  - text: |
+      What are the formal requirements?
+  - text: |
+      What are the formal specifications that need to be met?
+  - text: |
+      What are the necessary formal criteria that must be fulfilled?
+  - text: |
+      what are the formal requirements
+- intent: goodbye
+  metadata:
+    language: en
+  examples:
+  - text: |
+      - bye
+    metadata:
+      canonical: true
+  - text: |
+      - bye bye
+    metadata:
+      canonical: true
+  - text: |
+      - cee you later
+    metadata:
+      canonical: true
+  - text: |
+      - cu
+  - text: |
+      - good by
+  - text: |
+      - good night
+    metadata:
+      canonical: true
+  - text: |
+      - goodbye
+    metadata:
+      canonical: true
+  - text: |
+      - have a nice day
+    metadata:
+      canonical: true
+  - text: |
+      - see you around
+    metadata:
+      canonical: true
+  - text: |
+      - see you later
+    metadata:
+      canonical: true
+- intent: greet
+  metadata:
+    language: en
+  examples:
+  - text: |
+      - good afternoon
+    metadata:
+      canonical: true
+  - text: |
+      - good evening
+    metadata:
+      canonical: true
+  - text: |
+      - good morning
+    metadata:
+      canonical: true
+  - text: |
+      - goodevening
+    metadata:
+      canonical: true
+  - text: |
+      - goodmorning
+    metadata:
+      canonical: true
+  - text: |
+      - hello
+    metadata:
+      canonical: true
+  - text: |
+      - hello there
+    metadata:
+      canonical: true
+  - text: |
+      - hey
+  - text: |
+      - hey dude
+    metadata:
+      canonical: true
+  - text: |
+      - hey there
+    metadata:
+      canonical: true
+  - text: |
+      - hi
+    metadata:
+      canonical: true
+  - text: |
+      - let's go
+    metadata:
+      canonical: true
+  - text: |
+      - moin
+    metadata:
+      canonical: true
+  - text: |
+      Hello
+  - text: |
+      affirm
+- intent: has_account
+  metadata:
+    language: en
+  examples:
+  - text: |
+      I have a GitHub account
+  - text: |
+      I have a account
+    metadata:
+      canonical: true
+  - text: |
+      Let me know when you have your account!
+  - text: |
+      has account
+- intent: has_fork
+  metadata:
+    language: en
+  examples:
+  - text: |
+      I have the fork
+    metadata:
+      canonical: true
+- intent: how
+  metadata:
+    language: en
+  examples:
+  - text: |
+      Can you provide me with instructions on how to do this?
+    metadata:
+      canonical: true
+  - text: |
+      how do I do that?
+- intent: how_commit
+  metadata:
+    language: en
+  examples:
+  - text: |
+      Can you provide guidance on how to commit and push your code to your branch?
+    metadata:
+      canonical: true
+  - text: |
+      How do I commit and push my contributions?
+  - text: |
+      How do I ensure that my changes are properly committed and pushed to the correct branch?
+  - text: |
+      What are the steps involved in committing and pushing code to a branch?
+  - text: |
+      how do I commit and push my code to my branch?
+- intent: keyboard_short
+  metadata:
+    language: en
+  examples:
+  - text: |
+      Can you provide some guidelines on how to add keyboard shortcuts?
+    metadata:
+      canonical: true
+  - text: |
+      How do I ensure that my keyboard shortcuts are intuitive and user-friendly?
+  - text: |
+      What are some best practices for adding keyboard shortcuts to an application or program?
+  - text: |
+      What is the recommended approach for adding keyboard shortcuts?
+  - text: |
+      What should I consider when implementing keyboard shortcuts?
+  - text: |
+      how should I handle keyboard shortcuts?
+- intent: kind
+  metadata:
+    language: en
+  examples:
+  - text: |
+      I love you
+    metadata:
+      canonical: true
+- intent: library
+  metadata:
+    language: en
+  examples:
+  - text: |
+      Can you provide some guidance on how to properly integrate a new library into an existing project?
+    metadata:
+      canonical: true
+  - text: |
+      I added a library what should I do?
+  - text: |
+      What are some best practices for managing libraries in a project?
+  - text: |
+      What steps should I take after adding a library to the project?
+  - text: |
+      do I need to do anything special when adding a library?
+  - text: |
+      how  should I handle adding libraries?
+- intent: localization
+  metadata:
+    language: en
+  examples:
+  - text: |
+      Can you provide some guidelines on how to implement localization?
+    metadata:
+      canonical: true
+  - text: |
+      What are some best practices for implementing and maintaining localization in a project?
+  - text: |
+      What is the recommended approach for handling localization in a project?
+  - text: |
+      how should I handle localization?
+- intent: multi_feature
+  metadata:
+    language: en
+  examples:
+  - text: |
+      Could you advise me on what to do if I need to implement multiple features?
+  - text: |
+      How can I go about implementing multiple features?
+  - text: |
+      If I want to implement multiple features, what steps should I take?
+  - text: |
+      Is there a best practice for implementing multiple features?
+  - text: |
+      What is the recommended approach for implementing multiple features?
+  - text: |
+      What should I do if I want to implement multiple features?
+    metadata:
+      canonical: true
+  - text: |
+      what should I do if I implemented multiple features?
+  - text: |
+      what should I do if I want to implement multiple features?
+- intent: name_branch
+  metadata:
+    language: en
+  examples:
+  - text: |
+      Can you explain how to properly name a branch?
+    metadata:
+      canonical: true
+  - text: |
+      Could you walk me through the steps of naming a branch?
+  - text: |
+      I am unsure of how to name my branch, could you provide some guidance?
+  - text: |
+      What are some best practices for naming a branch?
+  - text: |
+      What is the naming convention for branches, and how should I name my branch?
+  - text: |
+      how do I name a branch?
+  - text: |
+      what should I name my branch?
+- intent: need_branch
+  metadata:
+    language: en
+  examples:
+  - text: |
+      Can you explain how to make a branch?
+  - text: |
+      Could you walk me through the steps of making a branch?
+  - text: |
+      How do I make a branch?
+  - text: |
+      I am unsure of how to create a branch, could you guide me?
+  - text: |
+      What are the steps involved in creating a branch?
+  - text: |
+      What is the process for creating a new branch?
+    metadata:
+      canonical: true
+  - text: |
+      how do I make a branch
+- intent: need_fork
+  metadata:
+    language: en
+  examples:
+  - text: |
+      Do I need a fork?
+    metadata:
+      canonical: true
+  - text: |
+      How do I make a fork?
+  - text: |
+      I need a fork
+  - text: |
+      do I need a fork?
+- intent: no_account
+  metadata:
+    language: en
+  examples:
+  - text: |
+      How do I make an account?
+  - text: |
+      I do not have an account
+    metadata:
+      canonical: true
+- intent: pull_request
+  metadata:
+    language: en
+  examples:
+  - text: |
+      Can you provide some guidance on how to create a pull request?
+    metadata:
+      canonical: true
+  - text: |
+      How can I make a pull request?
+  - text: |
+      Okay great now we can finally make the pull request!
+  - text: |
+      What are some best practices for creating and submitting pull requests?
+  - text: |
+      What are the steps involved in submitting a pull request?
+  - text: |
+      What should I consider when submitting a pull request to ensure that it is accepted?
+  - text: |
+      how can I submit a pull request?
+  - text: |
+      how do I make a pull request?
+  - text: |
+      how do I sumbit a pull request?
+- intent: structural_changes
+  metadata:
+    language: en
+  examples:
+  - text: |
+      Can you guide me on what to do if I want to make major structural changes?
+  - text: |
+      How should I approach making major structural changes?
+  - text: |
+      I am considering making major structural changes, what steps should I take?
+  - text: |
+      I have made mayor structural changes
+  - text: |
+      What about structural changes?
+    metadata:
+      canonical: true
+  - text: |
+      What are some best practices for making major structural changes?
+  - text: |
+      What is the recommended process for making major structural changes?
+  - text: |
+      what about structrual changes?
+- intent: testing
+  metadata:
+    language: en
+  examples:
+  - text: |
+      Can you provide some tips on how to effectively test code?
+    metadata:
+      canonical: true
+  - text: |
+      How do I determine which tests are necessary for my code?
+  - text: |
+      Should I test my code?
+  - text: |
+      What is the importance of testing code, and how should I approach it?
+  - text: |
+      how should I test my code?
+  - text: |
+      how should my code be tested?
+- intent: translate_q
+  metadata:
+    language: en
+  examples:
+  - text: |
+      - How can I contribute to the translation process?
+    metadata:
+      canonical: true
+  - text: |
+      - How can I help translating?
+    metadata:
+      canonical: true
+  - text: |
+      - I am not a  programmer, how can I still contribute?
+  - text: |
+      - I don't have programming skills, but how else can I contribute?
+    metadata:
+      canonical: true
+  - text: |
+      - What can I do to assist with translations?
+    metadata:
+      canonical: true
+  - text: |
+      How can I contribute by translating?
+  - text: |
+      How can I help translating?
+  - text: |
+      How can I translate
+  - text: |
+      Translate

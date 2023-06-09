@@ -1,0 +1,781 @@
+stories:
+  - story: address change
+    steps:
+      - intent: comment_change
+        user: I like icecream
+        entities: []
+      - action: utter_AUAqVUWJf
+      - action: utter_PWklFKGsN
+      - action: utter_TFsE7ss-E
+    metadata:
+      group: Main
+  - story: author
+    steps:
+      - intent: credits
+        user: how should I credit myself
+        entities: []
+      - checkpoint: author__branches
+    metadata:
+      group: Main
+  - story: author__qa
+    steps:
+      - checkpoint: author__branches
+      - slot_was_set:
+          - Walk through: false
+      - action: utter_0qdjhDbpC
+    metadata:
+      group: Main
+  - story: author__Walkthrough
+    steps:
+      - checkpoint: author__branches
+      - slot_was_set:
+          - Walk through: true
+      - action: utter_-Knw1xztN
+    metadata:
+      group: Main
+  - story: changelog
+    steps:
+      - intent: changelog
+        user: What should I add to the changlog?
+        entities: []
+      - checkpoint: changelog__branches
+    metadata:
+      group: Main
+  - story: changelog__qa
+    steps:
+      - checkpoint: changelog__branches
+      - slot_was_set:
+          - Walk through: false
+      - action: utter_bFdTXtczQ
+    metadata:
+      group: Main
+  - story: changelog__walkthrough
+    steps:
+      - checkpoint: changelog__branches
+      - slot_was_set:
+          - Walk through: true
+      - action: utter_Bi6QgS9GZ_
+      - action: utter_M__qpaHXE
+      - checkpoint: changelog__walkthrough__branches
+    metadata:
+      group: Main
+  - story: changelog__walkthrough__No
+    steps:
+      - checkpoint: changelog__walkthrough__branches
+      - intent: deny
+        user: 'no'
+        entities: []
+      - action: utter_5805eSWQm
+      - action: utter_ayd6WVp2U
+    metadata:
+      group: Main
+  - story: changelog__walkthrough__yes
+    steps:
+      - checkpoint: changelog__walkthrough__branches
+    metadata:
+      group: Main
+  - story: Coding
+    steps:
+      - intent: no_account
+        user: How do I make an account?
+        entities: []
+      - action: utter_m5DAIlUEo
+      - action: utter_e86DPNlTs
+      - checkpoint: Coding__branches
+    metadata:
+      group: Main
+  - story: Coding__has account wt
+    steps:
+      - checkpoint: Coding__branches
+      - slot_was_set:
+          - Walk through: true
+    metadata:
+      group: Main
+  - story: Coding__no account
+    steps:
+      - checkpoint: Coding__branches
+      - intent: deny
+        user: 'no'
+        entities: []
+      - action: utter_ymtwmAQsy
+      - checkpoint: Coding__no_account__branches
+    metadata:
+      group: Main
+  - story: Coding__no account__qa
+    steps:
+      - checkpoint: Coding__no_account__branches
+      - slot_was_set:
+          - Walk through: false
+    metadata:
+      group: Main
+  - story: Coding__no account__walkthrough
+    steps:
+      - checkpoint: Coding__no_account__branches
+      - slot_was_set:
+          - Walk through: true
+      - action: utter_Rv18-IH3m
+    metadata:
+      group: Main
+  - story: Coding__qa
+    steps:
+      - checkpoint: Coding__branches
+      - slot_was_set:
+          - Walk through: false
+      - intent: need_fork
+        user: I need a fork
+        entities: []
+    metadata:
+      group: Main
+  - story: commit_message
+    steps:
+      - intent: commit_message
+        user: how do I write a good commit message for my commit?
+        entities: []
+      - action: utter_KNeGn8Q-A
+      - checkpoint: commit_message__branches
+    metadata:
+      group: Main
+  - story: commit_message__not sure qa
+    steps:
+      - checkpoint: commit_message__branches
+      - slot_was_set:
+          - Walk through: false
+      - intent: deny
+        user: 'no'
+        entities: []
+      - action: utter_jU7M69Pty
+      - action: utter_5r5f91sps
+    metadata:
+      group: Main
+  - story: commit_message__not sure walk
+    steps:
+      - checkpoint: commit_message__branches
+      - slot_was_set:
+          - Walk through: true
+      - intent: deny
+        user: 'no'
+        entities: []
+      - action: utter_EtiCe9pMS
+      - action: utter_8NwP6JvOO
+      - action: utter_M23HmdyDI
+    metadata:
+      group: Main
+  - story: commit_message__yes qa
+    steps:
+      - checkpoint: commit_message__branches
+      - slot_was_set:
+          - Walk through: false
+      - intent: pull_request
+        user: how do I make a pull request?
+        entities: []
+    metadata:
+      group: Main
+  - story: commit_message__yes walk
+    steps:
+      - checkpoint: commit_message__branches
+      - slot_was_set:
+          - Walk through: true
+    metadata:
+      group: Main
+  - story: commit_to_branch
+    steps:
+      - or:
+          - intent: commit_to_branch
+            user: How do I commit my changes to my branch?
+            entities: []
+          - intent: how_commit
+            user: How do I commit and push my contributions?
+            entities: []
+      - action: utter_WdWYdEVUT
+      - checkpoint: commit_to_branch__branches
+    metadata:
+      group: Main
+  - story: commit_to_branch__how qa
+    steps:
+      - checkpoint: commit_to_branch__branches
+      - slot_was_set:
+          - Walk through: false
+      - intent: how
+        user: how do I do that?
+        entities: []
+      - action: utter_FmOkXNjYj
+      - action: utter_xC_aEy2Kk
+      - action: utter_4WncCwGsG
+    metadata:
+      group: Main
+  - story: commit_to_branch__how walk
+    steps:
+      - checkpoint: commit_to_branch__branches
+      - slot_was_set:
+          - Walk through: true
+      - intent: how
+        user: how do I do that?
+        entities: []
+      - action: utter_FmOkXNjYj
+      - action: utter_xC_aEy2Kk
+      - action: utter_4WncCwGsG
+      - action: utter_bUxUUD7kP
+    metadata:
+      group: Main
+  - story: commit_to_branch__no qa
+    steps:
+      - checkpoint: commit_to_branch__branches
+      - slot_was_set:
+          - Walk through: false
+      - intent: deny
+        user: 'no'
+        entities: []
+      - action: utter_qTR8kIJpD
+    metadata:
+      group: Main
+  - story: commit_to_branch__no walk
+    steps:
+      - checkpoint: commit_to_branch__branches
+      - slot_was_set:
+          - Walk through: true
+      - intent: deny
+        user: 'no'
+        entities: []
+      - action: utter_qTR8kIJpD
+      - action: utter_xa3lEcKRb
+    metadata:
+      group: Main
+  - story: commit_to_branch__yes
+    steps:
+      - checkpoint: commit_to_branch__branches
+    metadata:
+      group: Main
+  - story: Contribute
+    steps:
+      - intent: contribute
+        user: How can I contribute to the project?
+        entities: []
+      - action: utter_MFyS6qFEY
+      - action: utter_JbIa-C4IC
+    metadata:
+      group: Main
+  - story: Fork
+    steps:
+      - intent: need_fork
+        user: Do I need a fork?
+        entities: []
+      - action: utter_sAMGr68v9
+      - checkpoint: Fork__branches
+    metadata:
+      group: Main
+  - story: Fork__has fork qa
+    steps:
+      - checkpoint: Fork__branches
+      - slot_was_set:
+          - Walk through: false
+      - intent: structural_changes
+        user: what about structrual changes?
+        entities: []
+    metadata:
+      group: Main
+  - story: Fork__Has fork wt
+    steps:
+      - checkpoint: Fork__branches
+      - slot_was_set:
+          - Walk through: true
+    metadata:
+      group: Main
+  - story: Fork__No fork
+    steps:
+      - checkpoint: Fork__branches
+      - intent: deny
+        user: 'no'
+        entities: []
+      - action: utter_rsXyjj3mY
+      - action: utter_0cb0lk3Vd
+      - action: utter_AgsAFZ1Uv
+    metadata:
+      group: Main
+  - story: keyboard_shortcut
+    steps:
+      - intent: keyboard_short
+        user: how should I handle keyboard shortcuts?
+        entities: []
+      - checkpoint: keyboard_shortcut__branches
+    metadata:
+      group: Main
+  - story: keyboard_shortcut__qa
+    steps:
+      - checkpoint: keyboard_shortcut__branches
+      - slot_was_set:
+          - Walk through: false
+      - action: utter_MmxYqGaDr
+    metadata:
+      group: Main
+  - story: keyboard_shortcut__walk
+    steps:
+      - checkpoint: keyboard_shortcut__branches
+      - slot_was_set:
+          - Walk through: true
+      - action: utter_26r3DA5k7
+      - checkpoint: keyboard_shortcut__walk__branches
+    metadata:
+      group: Main
+  - story: keyboard_shortcut__walk__no
+    steps:
+      - checkpoint: keyboard_shortcut__walk__branches
+    metadata:
+      group: Main
+  - story: keyboard_shortcut__walk__yes
+    steps:
+      - checkpoint: keyboard_shortcut__walk__branches
+      - intent: affirm
+        user: 'yes'
+        entities: []
+      - action: utter_3mMROMldr
+      - action: utter_SVXdxkzoGz
+    metadata:
+      group: Main
+  - story: Library
+    steps:
+      - intent: library
+        user: how  should I handle adding libraries?
+        entities: []
+      - checkpoint: Library__branches
+    metadata:
+      group: Main
+  - story: Library__qa
+    steps:
+      - checkpoint: Library__branches
+      - slot_was_set:
+          - Walk through: false
+      - action: utter_rEE2lfiif
+    metadata:
+      group: Main
+  - story: Library__walk
+    steps:
+      - checkpoint: Library__branches
+      - slot_was_set:
+          - Walk through: true
+      - action: utter_mP_yIx4hP
+      - checkpoint: Library__walk__branches
+    metadata:
+      group: Main
+  - story: Library__walk__no
+    steps:
+      - checkpoint: Library__walk__branches
+    metadata:
+      group: Main
+  - story: Library__walk__yes
+    steps:
+      - checkpoint: Library__walk__branches
+      - intent: affirm
+        user: 'yes'
+        entities: []
+      - action: utter_hp2UY9HlY
+      - action: utter_fPID78sfG
+    metadata:
+      group: Main
+  - story: localization
+    steps:
+      - intent: localization
+        user: how should I handle localization?
+        entities: []
+      - checkpoint: localization__branches
+    metadata:
+      group: Main
+  - story: localization__qa
+    steps:
+      - checkpoint: localization__branches
+      - slot_was_set:
+          - Walk through: false
+      - action: utter_7k-iOByXf
+    metadata:
+      group: Main
+  - story: localization__walk
+    steps:
+      - checkpoint: localization__branches
+      - slot_was_set:
+          - Walk through: true
+      - action: utter_MT3YB0mNa
+      - checkpoint: localization__walk__branches
+    metadata:
+      group: Main
+  - story: localization__walk__no
+    steps:
+      - checkpoint: localization__walk__branches
+    metadata:
+      group: Main
+  - story: localization__walk__yes
+    steps:
+      - checkpoint: localization__walk__branches
+      - intent: affirm
+        user: 'yes'
+        entities: []
+      - action: utter_IvCJX_HZx
+      - action: utter_Wq3NL0Akm
+    metadata:
+      group: Main
+  - story: make branch
+    steps:
+      - intent: need_branch
+        user: How do I make a branch?
+        entities: []
+      - action: utter_SQog6csmx
+      - action: utter_-ZCLrJX6m
+      - action: utter_nY0fP5pqG8
+      - action: utter_g2tDsvi7a
+      - checkpoint: make_branch__branches
+    metadata:
+      group: Main
+  - story: make branch__qa
+    steps:
+      - checkpoint: make_branch__branches
+      - slot_was_set:
+          - Walk through: false
+    metadata:
+      group: Main
+  - story: make branch__walkthrough
+    steps:
+      - checkpoint: make_branch__branches
+      - slot_was_set:
+          - Walk through: true
+      - action: utter_oXDYQFn3D
+    metadata:
+      group: Main
+  - story: multiple features
+    steps:
+      - intent: multi_feature
+        user: What should I do if I want to implement multiple features?
+        entities: []
+      - action: utter_vb69LaoCs
+      - checkpoint: multiple_features__branches
+    metadata:
+      group: Main
+  - story: multiple features__multilple
+    steps:
+      - checkpoint: multiple_features__branches
+      - intent: affirm
+        user: 'yes'
+        entities: []
+      - action: utter_DMAUUdI7C
+      - action: utter_62R1165KT
+      - checkpoint: multiple_features__multilple__branches
+    metadata:
+      group: Main
+  - story: multiple features__multilple__has not made branches
+    steps:
+      - checkpoint: multiple_features__multilple__branches
+    metadata:
+      group: Main
+  - story: multiple features__multilple__made branches
+    steps:
+      - checkpoint: multiple_features__multilple__branches
+      - intent: affirm
+        user: 'yes'
+        entities: []
+      - action: utter_KZgXJELaS
+    metadata:
+      group: Main
+  - story: multiple features__One change
+    steps:
+      - checkpoint: multiple_features__branches
+      - intent: deny
+        user: 'no'
+        entities: []
+      - action: utter_U7KPxxNxe
+      - checkpoint: multiple_features__One_change__branches
+    metadata:
+      group: Main
+  - story: multiple features__One change__has not made branches
+    steps:
+      - checkpoint: multiple_features__One_change__branches
+    metadata:
+      group: Main
+  - story: multiple features__One change__made branches
+    steps:
+      - checkpoint: multiple_features__One_change__branches
+      - intent: affirm
+        user: 'yes'
+        entities: []
+      - action: utter_TeYECOuCX
+      - checkpoint: multiple_features__One_change__made_branches__branches
+    metadata:
+      group: Main
+  - story: multiple features__One change__made branches__has name
+    steps:
+      - checkpoint: multiple_features__One_change__made_branches__branches
+      - slot_was_set:
+          - Walk through: true
+    metadata:
+      group: Main
+  - story: multiple features__One change__made branches__has name qa
+    steps:
+      - checkpoint: multiple_features__One_change__made_branches__branches
+      - slot_was_set:
+          - Walk through: false
+      - intent: changelog
+        user: what should I add to the changelog?
+        entities: []
+    metadata:
+      group: Main
+  - story: Pull Request
+    steps:
+      - intent: pull_request
+        user: how do I make a pull request?
+        entities: []
+      - slot_was_set:
+          - Walk through: true
+      - action: utter_4YGmjnflN
+      - action: utter_fUhZNicNl
+      - action: utter_RAOIIAznZ
+      - checkpoint: Pull_Request__branches
+    metadata:
+      group: Main
+  - story: Pull Request__qa
+    steps:
+      - checkpoint: Pull_Request__branches
+      - slot_was_set:
+          - Walk through: false
+    metadata:
+      group: Main
+  - story: Pull Request__walk
+    steps:
+      - checkpoint: Pull_Request__branches
+      - slot_was_set:
+          - Walk through: true
+      - action: utter_W6x0JwYKp
+    metadata:
+      group: Main
+  - story: rename branch
+    steps:
+      - intent: name_branch
+        user: what should I name my branch?
+        entities: []
+      - action: utter_MS59XggHM
+      - action: utter_KjssfNoyS
+      - checkpoint: rename_branch__branches
+    metadata:
+      group: Main
+  - story: rename branch__qa
+    steps:
+      - checkpoint: rename_branch__branches
+      - slot_was_set:
+          - Walk through: false
+    metadata:
+      group: Main
+  - story: rename branch__walkthrough
+    steps:
+      - checkpoint: rename_branch__branches
+      - slot_was_set:
+          - Walk through: true
+      - action: utter_nfxzrIuP9
+    metadata:
+      group: Main
+  - story: require changes?
+    steps:
+      - intent: change_required
+        user: what should I do if the pull request requires changes?
+        entities: []
+      - action: utter_rUI3-ssmp
+      - checkpoint: require_changes?__branches
+    metadata:
+      group: Main
+  - story: require changes?__No
+    steps:
+      - checkpoint: require_changes?__branches
+      - intent: deny
+        user: 'no'
+        entities: []
+      - action: utter_ZRI9q4X0y
+      - action: utter_mM9qJKmp0
+    metadata:
+      group: Main
+  - story: require changes?__Yes
+    steps:
+      - checkpoint: require_changes?__branches
+      - intent: affirm
+        user: 'yes'
+        entities: []
+      - action: utter_4NVcuvhkY
+      - action: walk_true_2_form
+      - active_loop: walk_true_2_form
+      - active_loop: null
+      - action: utter_fU55WVRp5
+    metadata:
+      group: Main
+  - story: Start
+    steps:
+      - intent: greet
+        user: Hello
+        entities: []
+      - action: reset_slots
+      - action: utter_A5A-wQ31K
+      - action: walkthrough_form
+      - active_loop: walkthrough_form
+      - active_loop: null
+      - checkpoint: Start__branches
+    metadata:
+      group: Main
+  - story: Start__qa
+    steps:
+      - checkpoint: Start__branches
+      - slot_was_set:
+          - Walk through: false
+      - action: utter_Bo-4jGq2Y
+    metadata:
+      group: Main
+  - story: Start__walk through
+    steps:
+      - checkpoint: Start__branches
+      - slot_was_set:
+          - Walk through: true
+      - action: utter_fUFMi49wL
+      - action: utter_IRVRkCWjk7
+    metadata:
+      group: Main
+  - story: Structural changes
+    steps:
+      - intent: structural_changes
+        user: What about structural changes?
+        entities: []
+      - action: utter_c6KQsWyuG
+      - checkpoint: Structural_changes__branches
+    metadata:
+      group: Main
+  - story: Structural changes__major changes
+    steps:
+      - checkpoint: Structural_changes__branches
+      - intent: affirm
+        user: 'yes'
+        entities: []
+      - action: utter_UDkRN80g1
+      - action: utter_Sj71U22ae
+      - action: utter_OrG4RXvqE
+      - checkpoint: Structural_changes__major_changes__branches
+    metadata:
+      group: Main
+  - story: Structural changes__major changes__qa
+    steps:
+      - checkpoint: Structural_changes__major_changes__branches
+      - slot_was_set:
+          - Walk through: false
+    metadata:
+      group: Main
+  - story: Structural changes__major changes__walkthrough
+    steps:
+      - checkpoint: Structural_changes__major_changes__branches
+      - slot_was_set:
+          - Walk through: true
+      - action: utter_xUjF3-v5j
+    metadata:
+      group: Main
+  - story: Structural changes__no major changes qa
+    steps:
+      - checkpoint: Structural_changes__branches
+      - slot_was_set:
+          - Walk through: false
+      - intent: multi_feature
+        user: what should I do if I implemented multiple features?
+        entities: []
+    metadata:
+      group: Main
+  - story: Structural changes__No major changes wt
+    steps:
+      - checkpoint: Structural_changes__branches
+      - slot_was_set:
+          - Walk through: true
+    metadata:
+      group: Main
+  - story: Testing
+    steps:
+      - intent: testing
+        user: how should my code be tested?
+        entities: []
+      - checkpoint: Testing__branches
+    metadata:
+      group: Main
+  - story: Testing__qa
+    steps:
+      - checkpoint: Testing__branches
+      - slot_was_set:
+          - Walk through: false
+      - action: utter_a0auS2zh2
+    metadata:
+      group: Main
+  - story: Testing__walk
+    steps:
+      - checkpoint: Testing__branches
+      - slot_was_set:
+          - Walk through: true
+      - action: utter_fud-Oc3X-
+      - checkpoint: Testing__walk__branches
+    metadata:
+      group: Main
+  - story: Testing__walk__no
+    steps:
+      - checkpoint: Testing__walk__branches
+      - intent: deny
+        user: 'no'
+        entities: []
+      - action: utter_g-rQEv4Sp
+      - action: utter_eaxfqiNqI
+    metadata:
+      group: Main
+  - story: Testing__walk__yes
+    steps:
+      - checkpoint: Testing__walk__branches
+    metadata:
+      group: Main
+  - story: TODO Formal Requirements qa
+    steps:
+      - intent: formal_requierments?
+        user: what are the formal requirements?
+        entities: []
+      - checkpoint: TODO_Formal_Requirements_qa__branches
+    metadata:
+      group: Main
+  - story: TODO Formal Requirements qa__qa
+    steps:
+      - checkpoint: TODO_Formal_Requirements_qa__branches
+      - slot_was_set:
+          - Walk through: false
+      - action: utter_SA35d8AbR
+      - checkpoint: TODO_Formal_Requirements_qa__qa__branches
+    metadata:
+      group: Main
+  - story: TODO Formal Requirements qa__qa__No
+    steps:
+      - checkpoint: TODO_Formal_Requirements_qa__qa__branches
+      - intent: deny
+        user: 'no'
+        entities: []
+      - active_loop: walk_false_form
+      - active_loop: null
+      - action: utter_qdrlZgvg9
+      - action: utter_Vjsw51ECj
+    metadata:
+      group: Main
+  - story: TODO Formal Requirements qa__qa__Yes
+    steps:
+      - checkpoint: TODO_Formal_Requirements_qa__qa__branches
+      - intent: affirm
+        user: 'yes'
+        entities: []
+      - action: walk_true_form
+      - active_loop: walk_true_form
+      - active_loop: null
+      - action: utter_xxpgdjBcO
+    metadata:
+      group: Main
+  - story: TODO Formal Requirements qa__walkthrough
+    steps:
+      - checkpoint: TODO_Formal_Requirements_qa__branches
+      - slot_was_set:
+          - Walk through: true
+    metadata:
+      group: Main
+  - story: Translate
+    steps:
+      - intent: translate_q
+        user: How can I contribute by translating?
+        entities: []
+      - action: utter_oEIHH9C3W
+    metadata:
+      group: Main
+rules: []

@@ -1,0 +1,1273 @@
+actions:
+  - Walk_form
+  - action_botfront_disambiguation
+  - action_botfront_disambiguation_followup
+  - action_botfront_fallback
+  - action_botfront_mapping
+  - reset_slots
+  - utter_-Knw1xztN
+  - utter_-ZCLrJX6m
+  - utter_0cb0lk3Vd
+  - utter_0qdjhDbpC
+  - utter_26r3DA5k7
+  - utter_3mMROMldr
+  - utter_4NVcuvhkY
+  - utter_4WncCwGsG
+  - utter_4YGmjnflN
+  - utter_5805eSWQm
+  - utter_5r5f91sps
+  - utter_62R1165KT
+  - utter_7k-iOByXf
+  - utter_8NwP6JvOO
+  - utter_A5A-wQ31K
+  - utter_AUAqVUWJf
+  - utter_AgsAFZ1Uv
+  - utter_Bi6QgS9GZ_
+  - utter_Bo-4jGq2Y
+  - utter_DMAUUdI7C
+  - utter_EtiCe9pMS
+  - utter_FmOkXNjYj
+  - utter_IRVRkCWjk7
+  - utter_IvCJX_HZx
+  - utter_JbIa-C4IC
+  - utter_KNeGn8Q-A
+  - utter_KZgXJELaS
+  - utter_KjssfNoyS
+  - utter_M23HmdyDI
+  - utter_MFyS6qFEY
+  - utter_MS59XggHM
+  - utter_MT3YB0mNa
+  - utter_M__qpaHXE
+  - utter_MmxYqGaDr
+  - utter_NnQ0twikB
+  - utter_OrG4RXvqE
+  - utter_P8H8rKip6
+  - utter_PWklFKGsN
+  - utter_Pw3U2hVfV
+  - utter_Q6sIGDrse
+  - utter_RAOIIAznZ
+  - utter_Rv18-IH3m
+  - utter_SA35d8AbR
+  - utter_SQog6csmx
+  - utter_SVXdxkzoGz
+  - utter_Sj71U22ae
+  - utter_TFsE7ss-E
+  - utter_TeYECOuCX
+  - utter_U7KPxxNxe
+  - utter_UDkRN80g1
+  - utter_Vjsw51ECj
+  - utter_W6x0JwYKp
+  - utter_WdWYdEVUT
+  - utter_Wq3NL0Akm
+  - utter_ZRI9q4X0y
+  - utter_a0auS2zh2
+  - utter_ask_Areyouimplementingoneormultiplefeaturesfixes
+  - utter_ask_Walk through
+  - utter_ask_checklist
+  - utter_ask_walktrough
+  - utter_ayd6WVp2U
+  - utter_bFdTXtczQ
+  - utter_bUxUUD7kP
+  - utter_c6KQsWyuG
+  - utter_cheer_up
+  - utter_did_that_help
+  - utter_e86DPNlTs
+  - utter_eaxfqiNqI
+  - utter_fPID78sfG
+  - utter_fU55WVRp5
+  - utter_fUFMi49wL
+  - utter_fUhZNicNl
+  - utter_fud-Oc3X-
+  - utter_g-rQEv4Sp
+  - utter_g2tDsvi7a
+  - utter_goodbye
+  - utter_happy
+  - utter_hp2UY9HlY
+  - utter_iamabot
+  - utter_jU7M69Pty
+  - utter_m5DAIlUEo
+  - utter_mM9qJKmp0
+  - utter_mP_yIx4hP
+  - utter_nY0fP5pqG8
+  - utter_nfxzrIuP9
+  - utter_oEIHH9C3W
+  - utter_oXDYQFn3D
+  - utter_qTR8kIJpD
+  - utter_qdrlZgvg9
+  - utter_rEE2lfiif
+  - utter_rUI3-ssmp
+  - utter_rsXyjj3mY
+  - utter_sAMGr68v9
+  - utter_vb69LaoCs
+  - utter_xC_aEy2Kk
+  - utter_xUjF3-v5j
+  - utter_xa3lEcKRb
+  - utter_xxpgdjBcO
+  - utter_ymtwmAQsy
+entities:
+  - entity
+  - start
+forms:
+  Formal_false_form:
+    collect_in_botfront: null
+    description: null
+    graph_elements:
+      edges:
+        - condition: null
+          id: e1-76c56497-611f-41cc-9da5-c97841a368ad
+          source: '1'
+          target: 76c56497-611f-41cc-9da5-c97841a368ad
+          type: condition
+      nodes:
+        - id: '1'
+          position:
+            x: 200
+            'y': 200
+          type: start
+        - id: 76c56497-611f-41cc-9da5-c97841a368ad
+          position:
+            x: 120
+            'y': 320
+          slotName: formal requirements walkthrough
+          slotValue: false
+          type: slotSet
+    groupName: Main
+    name: Formal_false_form
+    slots: []
+    updatedAt: 1683813810613
+  Formal_true_form:
+    collect_in_botfront: true
+    description: ''
+    graph_elements:
+      edges:
+        - condition: null
+          id: e1-2b7b6901-45ff-4626-ae0e-fd78069db0ea
+          source: '1'
+          target: 2b7b6901-45ff-4626-ae0e-fd78069db0ea
+          type: condition
+      nodes:
+        - id: '1'
+          position:
+            x: 200
+            'y': 200
+          type: start
+        - id: 2b7b6901-45ff-4626-ae0e-fd78069db0ea
+          position:
+            x: 120
+            'y': 340
+          slotName: formal requirements walkthrough
+          slotValue: true
+          type: slotSet
+    groupName: Main
+    name: Formal_true_form
+    slots: []
+    updatedAt: 1683813812091
+  checklist_false_form:
+    collect_in_botfront: null
+    description: null
+    graph_elements:
+      edges:
+        - condition: null
+          id: e1-713d9e80-25ad-4f0c-913d-56b045b4a794
+          source: '1'
+          target: 713d9e80-25ad-4f0c-913d-56b045b4a794
+          type: condition
+      nodes:
+        - id: '1'
+          position:
+            x: 200
+            'y': 200
+          type: start
+        - id: 713d9e80-25ad-4f0c-913d-56b045b4a794
+          position:
+            x: 120
+            'y': 350
+          slotName: checklist
+          slotValue: false
+          type: slotSet
+    groupName: Main
+    name: checklist_false_form
+    slots: []
+    updatedAt: 1683813812689
+  checklist_true_form:
+    collect_in_botfront: null
+    description: null
+    graph_elements:
+      edges:
+        - condition: null
+          id: e1-d728fd85-8959-4337-ac2c-db0b7d2f086d
+          source: '1'
+          target: d728fd85-8959-4337-ac2c-db0b7d2f086d
+          type: condition
+      nodes:
+        - id: '1'
+          position:
+            x: 200
+            'y': 200
+          type: start
+        - id: d728fd85-8959-4337-ac2c-db0b7d2f086d
+          position:
+            x: 120
+            'y': 350
+          slotName: checklist
+          slotValue: true
+          type: slotSet
+    groupName: Main
+    name: checklist_true_form
+    slots: []
+    updatedAt: 1683813813256
+  walk_false_form:
+    collect_in_botfront: null
+    description: null
+    graph_elements:
+      edges:
+        - condition: null
+          id: e1-b83b873f-43cf-4e32-a554-4f144e4c54f5
+          source: '1'
+          target: b83b873f-43cf-4e32-a554-4f144e4c54f5
+          type: condition
+      nodes:
+        - id: '1'
+          position:
+            x: 200
+            'y': 200
+          type: start
+        - id: b83b873f-43cf-4e32-a554-4f144e4c54f5
+          position:
+            x: 120
+            'y': 350
+          slotName: Walk through
+          slotValue: false
+          type: slotSet
+    groupName: Main
+    name: walk_false_form
+    slots: []
+    updatedAt: 1683813814475
+  walk_true_2_form:
+    collect_in_botfront: null
+    description: null
+    graph_elements:
+      edges:
+        - condition: null
+          id: e1-4e54573a-36ca-4362-9780-b299f70a599a
+          source: '1'
+          target: 4e54573a-36ca-4362-9780-b299f70a599a
+          type: condition
+      nodes:
+        - id: '1'
+          position:
+            x: 200
+            'y': 200
+          type: start
+        - id: 4e54573a-36ca-4362-9780-b299f70a599a
+          position:
+            x: 120
+            'y': 350
+          slotName: Walk through
+          slotValue: true
+          type: slotSet
+    groupName: Main
+    name: walk_true_2_form
+    slots: []
+    updatedAt: 1683813815196
+  walk_true_form:
+    collect_in_botfront: null
+    description: null
+    graph_elements:
+      edges:
+        - condition: null
+          id: e1-5201732b-edff-4b7c-932a-e90bdf452e73
+          source: '1'
+          target: 5201732b-edff-4b7c-932a-e90bdf452e73
+          type: condition
+      nodes:
+        - id: '1'
+          position:
+            x: 200
+            'y': 200
+          type: start
+        - id: 5201732b-edff-4b7c-932a-e90bdf452e73
+          position:
+            x: 120
+            'y': 350
+          slotName: Walk through
+          slotValue: true
+          type: slotSet
+    groupName: Main
+    name: walk_true_form
+    slots: []
+    updatedAt: 1683813815939
+  walkthrough_form:
+    collect_in_botfront: null
+    description: null
+    graph_elements:
+      edges:
+        - condition: null
+          id: e1-Walk through
+          source: '1'
+          target: Walk through
+          type: condition
+      nodes:
+        - id: '1'
+          position:
+            x: 200
+            'y': 200
+          type: start
+        - id: Walk through
+          position:
+            x: 100
+            'y': 320
+          slotName: Walk through
+          type: slot
+    groupName: Main
+    name: walkthrough_form
+    slots:
+      - filling:
+          - intent:
+              - affirm
+            not_intent: null
+            type: from_intent
+            value: true
+          - intent:
+              - deny
+            not_intent: null
+            type: from_intent
+            value: false
+        name: Walk through
+        utter_on_new_valid_slot: false
+    updatedAt: 1684438426202
+intents:
+  - affirm
+  - bot_challenge
+  - change_required
+  - changelog
+  - comment_change
+  - commit_message
+  - commit_to_branch
+  - contribute
+  - credits
+  - deny
+  - formal_requierments?
+  - goodbye
+  - greet
+  - how
+  - how_commit
+  - keyboard_short
+  - kind
+  - library
+  - localization
+  - multi_feature
+  - name_branch
+  - need_branch
+  - need_fork
+  - no_account
+  - pull_request
+  - structural_changes
+  - testing
+  - translate_q
+responses:
+  utter_-Knw1xztN:
+    - language: en
+      metadata: null
+      quick_replies:
+        - payload: /keyboard_short
+          title: I did not add myself to the @authors
+          type: postback
+      text: >-
+        Please make sure you did not add yourself at JavaDoc's @authors. If you
+        did, remove  or undo this before making your pull request.  
+          
+        Your contributions are tracked and shown via the version control.
+  utter_-ZCLrJX6m:
+    - language: en
+      metadata: null
+      text: >-
+        Then towards the top right there should be a button "New Branch", click
+        on it. A pop up menu should appear.
+  utter_0cb0lk3Vd:
+    - buttons:
+        - title: 'URL: How to fork  a repo'
+          type: web_url
+          url: 'https://docs.github.com/en/get-started/quickstart/fork-a-repo'
+      language: en
+      metadata: null
+      text: 'For more detailed and visual instructions click here:'
+  utter_0qdjhDbpC:
+    - language: en
+      metadata: null
+      text: >-
+        Please make sure you did not add yourself at JavaDoc's @authors. If you
+        did, remove  or undo this before making your pull request.  
+          
+        Your contributions are tracked and shown via the version control.
+  utter_26r3DA5k7:
+    - language: en
+      metadata: null
+      quick_replies:
+        - payload: /affirm
+          title: 'Yes'
+          type: postback
+        - payload: /testing
+          title: 'No'
+          type: postback
+      text: Did you add keyboard shortcuts to the change log?
+  utter_3mMROMldr:
+    - buttons:
+        - title: 'URL: How to format keyboard shortcuts'
+          type: web_url
+          url: >-
+            https://devdocs.jabref.org/contributing.html#format-of-keyboard-shortcuts
+      language: en
+      text: >-
+        You should make sure you formatted the shortcuts correctly according to
+        the guidelines given here:
+  utter_4NVcuvhkY:
+    - language: en
+      metadata: null
+      text: >-
+        If there are any problems you should update the code to address these
+        problems.
+  utter_4WncCwGsG:
+    - buttons:
+        - title: 'URL: Pushing commits to a remote repository'
+          type: web_url
+          url: >-
+            https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository#about-git-push
+      language: en
+      metadata: null
+      text: >-
+        After you have committed your changes make sure to push it to your
+        accompanying branch!
+  utter_4YGmjnflN:
+    - language: en
+      metadata: null
+      text: Okay great now we can finally make the pull request!
+  utter_5805eSWQm:
+    - language: en
+      text: >-
+        You should edit the CHANGELOG.md file located in the root directory of
+        the JabRef source. Add a line with your changes in the appropriate
+        section.
+
+
+        If you did internal refactorings or improvements not visible to the user
+        (e.g., UI, .bib file), then you don’t need to put an entry there.
+  utter_5r5f91sps:
+    - buttons:
+        - title: 'URL: how to edit a commit message.'
+          type: web_url
+          url: >-
+            https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/changing-a-commit-message
+      language: en
+      metadata: null
+      text: 'Here is a guide on how to change your old commit messages:'
+  utter_62R1165KT:
+    - language: en
+      metadata: null
+      quick_replies:
+        - payload: /affirm
+          title: 'Yes'
+          type: postback
+        - payload: /need_branch
+          title: 'No'
+          type: postback
+      text: Have you already made a branch for each fix/feature separately?
+  utter_7k-iOByXf:
+    - buttons:
+        - title: 'URL: What to do when adding localization'
+          type: web_url
+          url: >-
+            https://devdocs.jabref.org/contributing#when-adding-a-new-localizationlang-entry
+      language: en
+      metadata: null
+      text: >-
+        You should make sure you add a new   
+
+        "Localization.lang("KEY") to a java file. for more information take a
+        look at this page:
+  utter_8NwP6JvOO:
+    - buttons:
+        - title: 'URL: how to edit a commit message.'
+          type: web_url
+          url: >-
+            https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/changing-a-commit-message
+      language: en
+      metadata: null
+      text: 'Here is a guide on how to change your old commit messages:'
+  utter_A5A-wQ31K:
+    - language: en
+      metadata:
+        forceClose: false
+        forceOpen: true
+        linkTarget: _blank
+        pageChangeCallbacks: null
+        pageEventCallbacks: null
+        userInput: show
+      text: >-
+        Hello, I am Chat Bot you can ask me questions on how to contribute
+        (e.g., submit a pull request) to JabRef. How can I help you?
+  utter_AUAqVUWJf:
+    - language: en
+      metadata: null
+      text: >-
+        Make a comment on the pull request on how you addressed the fixes, and
+        update the code on your branch.
+  utter_AgsAFZ1Uv:
+    - language: en
+      metadata: null
+      quick_replies:
+        - payload: '/structural_changes{"":""}'
+          title: I have it!
+          type: postback
+      text: Let me know when you have made your fork!
+  utter_Bi6QgS9GZ_:
+    - language: en
+      metadata: null
+      text: >-
+        Great! lets check what you need to do so that your pull request complies
+        with the formal requirements before we make it.
+  utter_Bo-4jGq2Y:
+    - language: en
+      metadata: null
+      text: Feel free to ask me what to do if you are not quite sure what to do.
+  utter_DMAUUdI7C:
+    - language: en
+      metadata: null
+      text: >-
+        It is best if you make a branch for each fix/feature you add. Especially
+        when there are larger changes.
+  utter_EtiCe9pMS:
+    - buttons:
+        - title: 'URL: How to write a commit message.'
+          type: web_url
+          url: 'https://github.com/joelparkerhenderson/git-commit-message'
+      language: en
+      metadata: null
+      text: >-
+        Make sure you write a good commit message, if you want more information
+        on how to write a commit message click here:
+  utter_FmOkXNjYj:
+    - buttons:
+        - title: 'URL: How does git commit work?'
+          type: web_url
+          url: 'https://github.com/git-guides/git-commit'
+      language: en
+      metadata: null
+      text: 'You can find a nice guide on how to commit your code here:'
+  utter_IRVRkCWjk7:
+    - language: en
+      metadata: null
+      quick_replies:
+        - payload: '/no_account{"":""}'
+          title: coding
+          type: postback
+        - payload: /translate_q
+          title: translating
+          type: postback
+      text: Which option would you like to hear hear more about?
+  utter_IvCJX_HZx:
+    - buttons:
+        - title: 'URL: How to handle localization entries'
+          type: web_url
+          url: >-
+            https://devdocs.jabref.org/contributing#when-adding-a-new-localizationlang-entry
+      language: en
+      text: >-
+        You should make sure you add a new   
+
+        "Localization.lang("KEY") to a java file. for more information take a
+        look at this page:
+  utter_JbIa-C4IC:
+    - language: en
+      metadata: null
+      quick_replies:
+        - payload: /translate_q
+          title: Translate
+          type: postback
+        - payload: /no_account
+          title: Coding
+          type: postback
+      text: Which option would you like to hear hear more about?
+  utter_KNeGn8Q-A:
+    - language: en
+      metadata: null
+      quick_replies:
+        - payload: /pull_request
+          title: 'Yes'
+          type: postback
+        - payload: /deny
+          title: 'No'
+          type: postback
+        - payload: /deny
+          title: Not sure
+          type: postback
+      text: Did you make a good commit message?
+  utter_KZgXJELaS:
+    - language: en
+      metadata: null
+      quick_replies:
+        - payload: /changelog
+          title: 'Yes'
+          type: postback
+        - payload: /name_branch
+          title: 'No'
+          type: postback
+        - payload: /name_branch
+          title: Not sure
+          type: postback
+      text: Have you given each of the  branches a descriptive name?
+  utter_KjssfNoyS:
+    - buttons:
+        - title: 'URL: How to name branches?'
+          type: web_url
+          url: >-
+            https://dev.to/varbsan/a-simplified-convention-for-naming-branches-and-commits-in-git-il4
+      language: en
+      metadata: null
+      text: >-
+        If you are not quite sure what you should name your branch(es) take a
+        look here:
+  utter_M23HmdyDI:
+    - language: en
+      metadata: null
+      quick_replies:
+        - payload: /pull_request
+          title: Ready
+          type: postback
+      text: Let me know  when you are happy with you commit (message).
+  utter_MFyS6qFEY:
+    - language: en
+      metadata: null
+      text: >-
+        Great to hear that you want to contribute!
+
+
+        You can either contribute by helping translate, or if you are a
+        programmer you can also help by contributing to the codebase! 
+  utter_MS59XggHM:
+    - language: en
+      metadata: null
+      text: >-
+        To rename a branch go to the branches menu and click on the pencil icon
+        to change the name to be more descriptive.
+  utter_MT3YB0mNa:
+    - language: en
+      metadata: null
+      quick_replies:
+        - payload: /affirm
+          title: 'Yes'
+          type: postback
+        - payload: /library
+          title: 'No'
+          type: postback
+      text: Did you add a localization.lang entry?
+  utter_M__qpaHXE:
+    - language: en
+      metadata: null
+      quick_replies:
+        - payload: /credits
+          title: 'Yes'
+          type: postback
+        - payload: /deny
+          title: 'No'
+          type: postback
+        - payload: /deny
+          title: Not sure
+          type: postback
+      text: >-
+        Have you added your change(s) to the CHANGELOG.md? (In the correct
+        format)
+  utter_MmxYqGaDr:
+    - buttons:
+        - title: 'URL: How to format keyboard shortcuts'
+          type: web_url
+          url: >-
+            https://devdocs.jabref.org/contributing.html#format-of-keyboard-shortcuts
+      language: en
+      metadata: null
+      text: >-
+        If you did not make sure you change is to comply with the guidelines
+        given here:
+  utter_NnQ0twikB:
+    - language: en
+      quick_replies:
+        - payload: '/has_account{"":""}'
+          title: Ready!
+          type: postback
+      text: Let me know when you have an account!
+  utter_OrG4RXvqE:
+    - buttons:
+        - title: 'URL: Documenting architectual changes'
+          type: web_url
+          url: >-
+            https://devdocs.jabref.org/contributing#when-making-an-architectural-decision
+      language: en
+      metadata: null
+      text: If you do decide to make architectural changes you should document it.
+  utter_P8H8rKip6:
+    - language: en
+      text: >-
+        Hello, I am [Chat Bot] you can ask me questions related to making pull
+        request.  How can I help you?
+  utter_PWklFKGsN:
+    - buttons:
+        - title: 'URL: How to write a good commit message.'
+          type: web_url
+          url: 'https://github.com/joelparkerhenderson/git-commit-message'
+      language: en
+      metadata: null
+      text: Again make sure you make a descriptive comment.
+  utter_Pw3U2hVfV:
+    - language: en
+      text: >-
+        After submitting your pull request you have to wait for feedback from
+        the developers. Let me know when that happens.
+  utter_Q6sIGDrse:
+    - language: en
+      text: Beep Boop❤️
+  utter_RAOIIAznZ:
+    - language: en
+      metadata: null
+      text: >-
+        Alternatively if you are not quite done yet you can also make a draft
+        pull request. 
+  utter_Rv18-IH3m:
+    - language: en
+      quick_replies:
+        - payload: /need_fork
+          title: I have it
+          type: postback
+      text: Let me know when you have your account!
+  utter_SA35d8AbR:
+    - language: en
+      metadata: null
+      quick_replies:
+        - payload: /affirm
+          title: 'Yes'
+          type: postback
+        - payload: /deny
+          title: 'No'
+          type: postback
+      text: Do you want to over all the formal requirements?
+  utter_SQog6csmx:
+    - language: en
+      metadata: null
+      text: >-
+        To create a branch navigate to your fork of the GitHub repository. There
+        should be a "branch" button, click on that.
+  utter_SVXdxkzoGz:
+    - language: en
+      quick_replies:
+        - payload: /testing
+          title: I'm done
+          type: postback
+      text: Let me know when you have formatted your keyboard shortcuts correctly.
+  utter_Sj71U22ae:
+    - buttons:
+        - title: 'URL: Decision Records '
+          type: web_url
+          url: 'https://devdocs.jabref.org/decisions/'
+      language: en
+      metadata: null
+      text: >-
+        Some fundamental design decisions can be found on this list of
+        Architectural Decision Records here:
+  utter_TFsE7ss-E:
+    - language: en
+      metadata: null
+      quick_replies:
+        - payload: /change_required
+          title: I got feedback
+          type: postback
+      text: >-
+        Now that you have updated your pull request you will have to wait for
+        feedback from the developers.
+  utter_TeYECOuCX:
+    - language: en
+      metadata: null
+      quick_replies:
+        - payload: /changelog
+          title: 'Yes'
+          type: postback
+        - payload: /name_branch
+          title: 'No'
+          type: postback
+        - payload: /name_branch
+          title: Not sure
+          type: postback
+      text: Have you given your branch a descriptive name?
+  utter_U7KPxxNxe:
+    - language: en
+      metadata: null
+      quick_replies:
+        - payload: /affirm
+          title: 'yes'
+          type: postback
+        - payload: /need_branch
+          title: 'no'
+          type: postback
+      text: Have you made a branch for your fix/feature?
+  utter_UDkRN80g1:
+    - language: en
+      metadata: null
+      text: >-
+        Before you make any major/architectural changes make sure to first
+        discuss this with the core developers. This can save you a lot of time.
+  utter_Vjsw51ECj:
+    - buttons:
+        - title: 'URL: What are the formal requirements'
+          type: web_url
+          url: >-
+            https://devdocs.jabref.org/contributing#formal-requirements-for-a-pull-request
+      language: en
+      metadata: null
+      text: >-
+        If you want to see the site with all the formal requirements listed you
+        can find it here:
+  utter_W6x0JwYKp:
+    - language: en
+      quick_replies:
+        - payload: /change_required
+          title: There is an update
+          type: postback
+      text: >-
+        After submitting your pull request you have to wait for feedback from
+        the developers. Let me know when that happens.
+  utter_WdWYdEVUT:
+    - language: en
+      metadata: null
+      quick_replies:
+        - payload: /commit_message
+          title: 'Yes'
+          type: postback
+        - payload: /deny
+          title: No I will do that
+          type: postback
+        - payload: /how
+          title: How do I do that?
+          type: postback
+      text: >-
+        Have you pushed your commits containing your contribution to your fork
+        and accompanying branch?
+  utter_Wq3NL0Akm:
+    - language: en
+      quick_replies:
+        - payload: /library
+          title: Ready.
+          type: postback
+      text: Let me know when you are ready to  move on!
+  utter_ZRI9q4X0y:
+    - language: en
+      metadata: null
+      text: 'Great you should now be done with this contribution! '
+  utter_a0auS2zh2:
+    - language: en
+      metadata: null
+      text: >-
+        Writing test cases are import because they ensure that the code works.
+        If you do not have time to make test cases you should at least run
+        "gradlew check" in your console to make sure your changes have not
+        broken anything.
+  utter_ask_Areyouimplementingoneormultiplefeaturesfixes:
+    - buttons:
+        - payload: /deny
+          title: One
+          type: postback
+        - payload: /deny
+          title: multiple
+          type: postback
+      language: en
+      text: Are you implementing one or multiple features/fixes?
+  utter_ask_Walk through:
+    - language: en
+      quick_replies:
+        - payload: /affirm
+          title: Walkthrough
+          type: postback
+        - payload: /deny
+          title: I want to ask specific questions
+          type: postback
+      text: Do you prefer to be walked through the process of contributing?
+  utter_ask_checklist:
+    - language: en
+      quick_replies:
+        - payload: /affirm
+          title: 'Yes'
+          type: postback
+        - payload: /deny
+          title: 'No'
+          type: postback
+      text: >-
+        Do you want to go over the checklist again to make sure your changes
+        comply with the formal requirements?
+  utter_ask_walktrough:
+    - buttons:
+        - payload: /affirm
+          title: 'Yes'
+          type: postback
+        - payload: /deny
+          title: 'no'
+          type: postback
+      language: en
+      text: >-
+        Do you want to be walked through the process of how you can make a pull
+        request?
+  utter_ayd6WVp2U:
+    - language: en
+      quick_replies:
+        - payload: /credits
+          title: Done
+          type: postback
+      text: Let me know when you are done!
+  utter_bFdTXtczQ:
+    - language: en
+      metadata: null
+      text: >-
+        You should edit the CHANGELOG.md file located in the root directory of
+        the JabRef source. Add a line with your changes in the appropriate
+        section.
+
+
+        If you did internal refactoring or improvements not visible to the user
+        (e.g., UI, .bib file), then you don’t need to put an entry there.
+  utter_bUxUUD7kP:
+    - language: en
+      metadata: null
+      quick_replies:
+        - payload: /pull_request
+          title: Ready
+          type: postback
+      text: Let me know you are ready!
+  utter_c6KQsWyuG:
+    - language: en
+      metadata: null
+      quick_replies:
+        - payload: /affirm
+          title: 'Yes'
+          type: postback
+        - payload: /multi_feature
+          title: 'no'
+          type: postback
+        - payload: /affirm
+          title: Not sure
+          type: postback
+      text: Are you planning on making any major changes?
+  utter_cheer_up:
+    - image: 'https://i.imgur.com/nGF1K8f.jpg'
+      language: en
+      text: 'Here is something to cheer you up:'
+  utter_did_that_help:
+    - language: en
+      text: Did that help you?
+  utter_e86DPNlTs:
+    - language: en
+      quick_replies:
+        - payload: /need_fork
+          title: 'Yes'
+          type: postback
+        - payload: '/deny{"":""}'
+          title: 'No'
+          type: postback
+      text: Do you already have a GitHub account?
+  utter_eaxfqiNqI:
+    - language: en
+      metadata: null
+      quick_replies:
+        - payload: /localization
+          title: Ready
+          type: postback
+      text: Let me know when you are ready to move onto the next part.
+  utter_fPID78sfG:
+    - language: en
+      quick_replies:
+        - payload: /commit_to_branch
+          title: Done
+          type: postback
+      text: Let me know when you have done so.
+  utter_fU55WVRp5:
+    - language: en
+      metadata: null
+      quick_replies:
+        - payload: /changelog
+          title: 'Yes'
+          type: postback
+        - payload: /comment_change
+          title: 'No'
+          type: postback
+      text: >-
+        Do you want to go over the checklist again to make sure your changes
+        comply with the formal requirements?
+  utter_fUFMi49wL:
+    - language: en
+      metadata: null
+      text: >-
+        You can either contribute by helping translate, or if you are a
+        programmer you can also help by contributing to the codebase! 
+  utter_fUhZNicNl:
+    - buttons:
+        - title: 'URL: How to make a pull request?'
+          type: web_url
+          url: >-
+            https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork
+      language: en
+      metadata: null
+      text: Here is a nice guide on how to make a pull request.
+  utter_fud-Oc3X-:
+    - language: en
+      metadata: null
+      quick_replies:
+        - payload: /localization
+          title: 'Yes'
+          type: postback
+        - payload: /deny
+          title: 'No'
+          type: postback
+        - payload: /deny
+          title: Not sure
+          type: postback
+      text: Did you test your new code properly?
+  utter_g-rQEv4Sp:
+    - language: en
+      metadata: null
+      text: >-
+        Writing test cases are import because they ensure that the code works.
+        If you do not have time to make test cases you should at least run
+        "gradlew check" in your console to make sure your changes have not
+        broken anything.
+  utter_g2tDsvi7a:
+    - buttons:
+        - title: 'URL: How to make a branch'
+          type: web_url
+          url: >-
+            https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository
+      language: en
+      metadata: null
+      text: >-
+        If you want some more detailed instructions on how to make a branch
+        click here:
+  utter_goodbye:
+    - language: en
+      text: Bye
+  utter_happy:
+    - language: en
+      text: 'Great, carry on!'
+  utter_hp2UY9HlY:
+    - buttons:
+        - title: 'URL: What to do when adding a library'
+          type: web_url
+          url: 'https://devdocs.jabref.org/contributing#when-adding-a-library'
+      language: en
+      text: >-
+        Please make sure you followed the proper steps for when you add
+        libraries. The steps can be found here:
+  utter_iamabot:
+    - language: en
+      text: 'Beep Boop, I am a bot, powered by Rasa.'
+  utter_jU7M69Pty:
+    - buttons:
+        - title: 'URL: How to write a commit message.'
+          type: web_url
+          url: 'https://github.com/joelparkerhenderson/git-commit-message'
+      language: en
+      metadata: null
+      text: >-
+        Make sure you write a good commit message, if you want more information
+        on how to write a commit message click here:
+  utter_m5DAIlUEo:
+    - language: en
+      metadata: null
+      text: >-
+        Okay before we can make a pull request we will first go over some
+        prerequisites and the formal requirements of the JabRef repository
+  utter_mM9qJKmp0:
+    - language: en
+      metadata: null
+      text: If you want to ask any other questions feel free to ask!
+  utter_mP_yIx4hP:
+    - language: en
+      metadata: null
+      quick_replies:
+        - payload: /affirm
+          title: 'Yes'
+          type: postback
+        - payload: '/commit_to_branch{"":""}'
+          title: 'No'
+          type: postback
+      text: Did you add a library to the code?
+  utter_nY0fP5pqG8:
+    - buttons:
+        - payload: /name_branch
+          title: 'URL: What should I name my branch?'
+          type: postback
+      language: en
+      metadata: null
+      text: >-
+        It is best to give the branch a descriptive name so that you can quickly
+        know what is being implemented in that branch.
+  utter_nfxzrIuP9:
+    - language: en
+      metadata: null
+      quick_replies:
+        - payload: /changelog
+          title: ready
+          type: postback
+      text: Let me know when you have named you branch(es)
+  utter_oEIHH9C3W:
+    - buttons:
+        - title: 'URL: Translation Site'
+          type: web_url
+          url: 'https://crowdin.com/project/jabref'
+        - title: 'URL: Documentation'
+          type: web_url
+          url: 'https://contribute.jabref.org/'
+      language: en
+      metadata:
+        forceClose: false
+        forceOpen: false
+        linkTarget: _blank
+        pageChangeCallbacks: null
+        pageEventCallbacks: null
+        userInput: show
+      text: 'You can contribute by translating!  For more info visit '
+  utter_oXDYQFn3D:
+    - language: en
+      quick_replies:
+        - payload: /changelog
+          title: Ready!
+          type: postback
+      text: Let me know when you have created your branches!
+  utter_qTR8kIJpD:
+    - buttons:
+        - title: 'URL: How to write a good commit message?'
+          type: web_url
+          url: 'https://github.com/joelparkerhenderson/git-commit-message'
+      language: en
+      metadata: null
+      text: >-
+        Make sure you write a good commit message, if you want more information
+        on how to write a commit message click here:
+  utter_qdrlZgvg9:
+    - language: en
+      metadata: null
+      text: >-
+        Alright, if you have any questions about specific formal requirements
+        let me know!
+  utter_rEE2lfiif:
+    - language: en
+      metadata: null
+      quick_replies:
+        - title: 'URL: What to do when adding a library'
+          type: web_url
+          url: 'https://devdocs.jabref.org/contributing#when-adding-a-library'
+      text: 'If you added  a library make sure to follow the steps listed here:'
+  utter_rUI3-ssmp:
+    - language: en
+      metadata: null
+      quick_replies:
+        - payload: /affirm
+          title: 'Yes'
+          type: postback
+        - payload: /deny
+          title: 'No'
+          type: postback
+      text: Did your pull request require any changes?
+  utter_rsXyjj3mY:
+    - language: en
+      metadata: null
+      text: >-
+        You need to fork the repository to commit your changes to the code base.
+
+
+        This can be done by clicking the fork button in the top right of the
+        repository page.
+  utter_sAMGr68v9:
+    - language: en
+      metadata: null
+      quick_replies:
+        - payload: /structural_changes
+          title: 'Yes'
+          type: postback
+        - payload: '/deny{"":""}'
+          title: 'No'
+          type: postback
+      text: Great! Have you made your own fork of the repository?
+  utter_vb69LaoCs:
+    - language: en
+      metadata: null
+      quick_replies:
+        - payload: /deny
+          title: One
+          type: postback
+        - payload: /affirm
+          title: Multiple
+          type: postback
+      text: Are you implementing one or multiple features/fixes?
+  utter_xC_aEy2Kk:
+    - buttons:
+        - title: 'URL: How to write a git commit message?'
+          type: web_url
+          url: 'https://github.com/joelparkerhenderson/git-commit-message'
+      language: en
+      metadata: null
+      text: >-
+        Also make sure you add a good commit message, for more information go
+        here:
+  utter_xUjF3-v5j:
+    - language: en
+      quick_replies:
+        - payload: /multi_feature
+          title: Next step
+          type: postback
+      text: If you are sure you want to keep going to the next step let me know!
+  utter_xa3lEcKRb:
+    - language: en
+      metadata: null
+      quick_replies:
+        - payload: /pull_request
+          title: Ready
+          type: postback
+      text: Alright let me know when you have done so!
+  utter_xxpgdjBcO:
+    - language: en
+      metadata: null
+      quick_replies:
+        - payload: /changelog
+          title: Understood
+          type: postback
+      text: >-
+        Because of limitations with the bot the rest of the session will be in
+        "walk through" mode. To undo this clear conversation via the button on
+        the site.
+  utter_ymtwmAQsy:
+    - buttons:
+        - title: 'URL: Make an account'
+          type: web_url
+          url: 'https://github.com/signup'
+      language: en
+      metadata:
+        forceClose: false
+        forceOpen: false
+        linkTarget: _blank
+        pageChangeCallbacks: null
+        pageEventCallbacks: null
+        userInput: hide
+      text: |-
+        You need a GitHub account to contribute to the project.  
+        You can make an account here:
+session_config: {}
+slots:
+  Walk through:
+    type: bool
+  checklist:
+    type: bool
+  disambiguation_message:
+    type: unfeaturized
+  fallback_language:
+    initial_value: en
+    type: unfeaturized
+  formal requirements walkthrough:
+    type: bool
+  requested_slot:
+    type: categorical
+    values:
+      - Walk through

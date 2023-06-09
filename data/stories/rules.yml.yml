@@ -1,0 +1,36 @@
+stories: []
+rules:
+  - rule: kindness.yml
+    condition: []
+    steps:
+      - intent: kind
+        user: I love you
+        entities: []
+      - action: utter_Q6sIGDrse
+    metadata:
+      group: rules.yml
+  - rule: Say 'I am a bot' anytime the user challenges
+    steps:
+      - intent: bot_challenge
+      - action: utter_iamabot
+    metadata:
+      group: rules.yml
+  - rule: Say goodbye anytime the user says goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+    metadata:
+      group: rules.yml
+  - rule: welcome user
+    steps:
+      - action: walk_false_form
+      - active_loop: walk_false_form
+      - active_loop: null
+      - action: utter_P8H8rKip6
+      - action: Walk_form
+      - active_loop: Walk_form
+      - active_loop: null
+    conversation_start: true
+    wait_for_user_input: false
+    metadata:
+      group: rules.yml
