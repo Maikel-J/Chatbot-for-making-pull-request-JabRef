@@ -1,0 +1,720 @@
+<mxfile host="Electron" modified="2023-08-03T15:02:57.406Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="LrXQ1OF3jG2pxH0yxMmf" version="21.2.8" type="device">
+  <diagram id="sS1Z67sLzdg9Gphz6ALy" name="Page-1">
+    <mxGraphModel dx="2306" dy="1857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c0LhYwUdTbU0FnFNNJrv-47" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="4850" y="-30" width="5280" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="u2qH6tRN7u9M0dVrYxi7-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="400" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="u2qH6tRN7u9M0dVrYxi7-3" value="&lt;p&gt;You can either contribute by helping translate, or if you are a programmer you can also help by contributing to the codebase!&lt;br&gt;&lt;/p&gt;&lt;p&gt;Which option would you like to hear hear more about?&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="400" y="400" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="u2qH6tRN7u9M0dVrYxi7-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="800" y="40" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="u2qH6tRN7u9M0dVrYxi7-5" value="&lt;p&gt;You can contribute by translating!&lt;/p&gt;&lt;p&gt;For more info visit&lt;/p&gt;&lt;p&gt;&amp;nbsp;https://crowdin.com/project/jabref&lt;/p&gt;&lt;p&gt;or&amp;nbsp;https://contribute.jabref.org/&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="800" y="40" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="u2qH6tRN7u9M0dVrYxi7-6" value="" style="endArrow=classic;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="u2qH6tRN7u9M0dVrYxi7-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="890" y="230" as="sourcePoint" />
+            <mxPoint x="800" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u2qH6tRN7u9M0dVrYxi7-8" value="&lt;ul&gt;&lt;li&gt;Translating&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="585" y="275" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="u2qH6tRN7u9M0dVrYxi7-9" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="u2qH6tRN7u9M0dVrYxi7-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="890" y="540" as="sourcePoint" />
+            <mxPoint x="1170" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u2qH6tRN7u9M0dVrYxi7-10" value="Okay before we can make a pull request we will first go over some prerequisites and the formal requirements of the JabRef repository" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="400" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="u2qH6tRN7u9M0dVrYxi7-12" value="&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Coding&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="690" y="419" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="u2qH6tRN7u9M0dVrYxi7-13" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1290" y="460" as="sourcePoint" />
+            <mxPoint x="1360" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u2qH6tRN7u9M0dVrYxi7-15" value="Do you already have a GitHub account?" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="400" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="u2qH6tRN7u9M0dVrYxi7-17" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="u2qH6tRN7u9M0dVrYxi7-15" target="u2qH6tRN7u9M0dVrYxi7-19" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1650" y="469.5" as="sourcePoint" />
+            <mxPoint x="1720" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u2qH6tRN7u9M0dVrYxi7-18" value="You need a GitHub account to contribute to the project.&lt;br&gt;You can make an account here:&lt;br&gt;https://github.com/signup&lt;br&gt;Let me know when you have made your account!" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="160" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="u2qH6tRN7u9M0dVrYxi7-19" value="Great! Have you made your own fork of the repository?" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1980" y="400" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="u2qH6tRN7u9M0dVrYxi7-21" value="&lt;ul&gt;&lt;li&gt;Yes&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="1630" y="419" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="u2qH6tRN7u9M0dVrYxi7-23" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="u2qH6tRN7u9M0dVrYxi7-15" target="u2qH6tRN7u9M0dVrYxi7-18" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1640" y="459.5" as="sourcePoint" />
+            <mxPoint x="1720" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u2qH6tRN7u9M0dVrYxi7-24" value="&lt;ul&gt;&lt;li&gt;No&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="1420" y="349" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="u2qH6tRN7u9M0dVrYxi7-26" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="u2qH6tRN7u9M0dVrYxi7-18" target="u2qH6tRN7u9M0dVrYxi7-19" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1740" y="330" as="sourcePoint" />
+            <mxPoint x="1820" y="401" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1660" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u2qH6tRN7u9M0dVrYxi7-28" value="&lt;ul&gt;&lt;li&gt;I have it&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="1640" y="220" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="u2qH6tRN7u9M0dVrYxi7-29" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2260" y="460" as="sourcePoint" />
+            <mxPoint x="2550" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u2qH6tRN7u9M0dVrYxi7-30" value="&lt;ul&gt;&lt;li&gt;Yes&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="2240" y="420" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="u2qH6tRN7u9M0dVrYxi7-31" value="&lt;p&gt;You need to fork the repository to commit your changes to the code base.&lt;br&gt;&lt;/p&gt;&lt;p&gt;This can be done by clicking the fork button in the top right of the repository page.&lt;br&gt;&lt;/p&gt;&lt;p&gt;For more detailed and visual instructions click here:&lt;br&gt;&lt;/p&gt;&lt;p&gt;https://docs.github.com/en/get-started/quickstart/fork-a-repo&lt;br&gt;&lt;/p&gt;&lt;p&gt;Let me know when you have made your fork!&lt;br&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1980" y="100" width="280" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="u2qH6tRN7u9M0dVrYxi7-32" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="u2qH6tRN7u9M0dVrYxi7-31" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2120" y="399" as="sourcePoint" />
+            <mxPoint x="2340" y="359" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u2qH6tRN7u9M0dVrYxi7-33" value="&lt;ul&gt;&lt;li&gt;No&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="2040" y="345" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="u2qH6tRN7u9M0dVrYxi7-34" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="u2qH6tRN7u9M0dVrYxi7-31" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2360" y="329" as="sourcePoint" />
+            <mxPoint x="2550" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2290" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u2qH6tRN7u9M0dVrYxi7-35" value="&lt;ul&gt;&lt;li&gt;I have it&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="2280" y="305" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dYkcCDGefo7-1RZVFXdm-14" value="Are you implementing one or multiple features/fixes?" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3120" y="400" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dYkcCDGefo7-1RZVFXdm-15" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3400" y="458.56999999999994" as="sourcePoint" />
+            <mxPoint x="3690" y="458.56999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dYkcCDGefo7-1RZVFXdm-16" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;ul&gt;&lt;li&gt;One&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="3390" y="415" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dYkcCDGefo7-1RZVFXdm-17" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3259.29" y="400" as="sourcePoint" />
+            <mxPoint x="3259.29" y="280.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dYkcCDGefo7-1RZVFXdm-18" value="&lt;p&gt;It is best if you make a branch for each fix/feature you add. Especially when there are larger changes.&lt;/p&gt;&lt;p&gt;Have you made a branch for each fix/feature seperatly?&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3120" y="160" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dYkcCDGefo7-1RZVFXdm-19" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;ul&gt;&lt;li&gt;Multiple&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="3255" y="350" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dYkcCDGefo7-1RZVFXdm-20" value="Have you given each of the&amp;nbsp; branches a descriptive name?" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3120" y="-80" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dYkcCDGefo7-1RZVFXdm-21" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3400" y="219.99999999999994" as="sourcePoint" />
+            <mxPoint x="3690" y="219.99999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dYkcCDGefo7-1RZVFXdm-22" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;ul&gt;&lt;li&gt;Yes&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="3250" y="100" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dYkcCDGefo7-1RZVFXdm-24" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3259.29" y="160" as="sourcePoint" />
+            <mxPoint x="3259.29" y="40.00000000000023" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dYkcCDGefo7-1RZVFXdm-25" value="&lt;p&gt;To create a branch n&lt;span&gt;avigate to your fork of the GitHub repository.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;There should be a &quot;branch&quot; button, click on that.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Then towards the top right there should be a button &quot;New Branch&quot;, click on it.&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;A pop up menu should appear.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;It is best to give the branch a descriptive name so that you know what is being changed in that branch.&lt;/p&gt;&lt;p&gt;&lt;br&gt;https://dev.to/varbsan/a-simplified-convention-for-naming-branches-and-commits-in-git-il4&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;If you want some more detailed instructions on how to make a branch click here:&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Let me know when you have created your branches!&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3690" y="-10" width="280" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="dYkcCDGefo7-1RZVFXdm-26" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;ul&gt;&lt;li&gt;No&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="3385" y="175" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dYkcCDGefo7-1RZVFXdm-27" value="&lt;p&gt;Have you made a branch for your fix/feature?&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="3690" y="400" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dYkcCDGefo7-1RZVFXdm-28" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3829.5" y="400" as="sourcePoint" />
+            <mxPoint x="3830" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dYkcCDGefo7-1RZVFXdm-29" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;ul&gt;&lt;li&gt;Yes&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="3970" y="405" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dYkcCDGefo7-1RZVFXdm-30" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3970" y="460.0000000000002" as="sourcePoint" />
+            <mxPoint x="4260" y="460.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dYkcCDGefo7-1RZVFXdm-31" value="Have you given your branch a descriptive name?" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="4260" y="400" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dYkcCDGefo7-1RZVFXdm-32" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;ul&gt;&lt;li&gt;No&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="3810" y="349" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dYkcCDGefo7-1RZVFXdm-33" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dYkcCDGefo7-1RZVFXdm-20" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3500" y="-10" as="sourcePoint" />
+            <mxPoint x="4870" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="4230" y="-20" />
+              <mxPoint x="4230" y="320" />
+              <mxPoint x="4560" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dYkcCDGefo7-1RZVFXdm-34" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4540" y="458.57000000000016" as="sourcePoint" />
+            <mxPoint x="4870" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dYkcCDGefo7-1RZVFXdm-35" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;ul&gt;&lt;li&gt;Yes&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="4520" y="415" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dYkcCDGefo7-1RZVFXdm-37" value="" style="endArrow=classic;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1.004;exitY=0.375;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="dYkcCDGefo7-1RZVFXdm-25" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4260" y="240" as="sourcePoint" />
+            <mxPoint x="4870" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="4830" y="125" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dYkcCDGefo7-1RZVFXdm-38" value="&lt;ul&gt;&lt;li&gt;Ready&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="3960" y="75" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Yj0qMt7jErC0cMvsFg-7-2" value="To rename a branch go to the branches menu and click on the pencil icon to change the name to be more descriptive.&lt;br&gt;If you are not quite sure what you should name your branch(es) take a look here:&lt;br&gt;https://dev.to/varbsan/a-simplified-convention-for-naming-branches-and-commits-in-git-il4&lt;br&gt;&lt;br&gt;Let me know when if you managed to rename them." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="4260" y="140" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Yj0qMt7jErC0cMvsFg-7-3" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dYkcCDGefo7-1RZVFXdm-20" target="Yj0qMt7jErC0cMvsFg-7-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3570" y="340" as="sourcePoint" />
+            <mxPoint x="4270" y="-120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3260" y="-120" />
+              <mxPoint x="4260" y="-120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yj0qMt7jErC0cMvsFg-7-5" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;ul&gt;&lt;li&gt;Yes&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="3395" y="-70" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Yj0qMt7jErC0cMvsFg-7-7" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;ul&gt;&lt;li&gt;No&lt;/li&gt;&lt;li&gt;Not sure&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="3270" y="-180" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Yj0qMt7jErC0cMvsFg-7-8" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4540" y="224.4100000000002" as="sourcePoint" />
+            <mxPoint x="4870" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yj0qMt7jErC0cMvsFg-7-9" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;ul&gt;&lt;li&gt;Ready&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="4530" y="175" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Yj0qMt7jErC0cMvsFg-7-13" value="Have you added your change(s) to the CHANGELOG.md? (In the correct format)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="5280" y="400" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Yj0qMt7jErC0cMvsFg-7-14" value="&lt;ul&gt;&lt;li&gt;Yes&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="5560" y="410" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Yj0qMt7jErC0cMvsFg-7-15" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="Yj0qMt7jErC0cMvsFg-7-26" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="5560" y="460.4500000000003" as="sourcePoint" />
+            <mxPoint x="5886.08" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yj0qMt7jErC0cMvsFg-7-16" value="&lt;p&gt;You should edit the &lt;a href=&quot;https://github.com/JabRef/jabref/blob/main/CHANGELOG.md#changelog&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CHANGELOG.md&lt;/code&gt;&lt;/a&gt; file located in the root directory of the JabRef source. Add a line with your changes in the appropriate section.&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;p&gt;If you did internal refactorings or improvements not visible to the user (e.g., UI, .bib file), then you don’t need to put an entry there.&lt;br&gt;&lt;/p&gt;&lt;p&gt;Let me know when you are done!&lt;br&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="5280" y="120" width="280" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Yj0qMt7jErC0cMvsFg-7-17" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="Yj0qMt7jErC0cMvsFg-7-16" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="5420" y="400" as="sourcePoint" />
+            <mxPoint x="5670" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yj0qMt7jErC0cMvsFg-7-18" value="&lt;ul&gt;&lt;li&gt;No&lt;/li&gt;&lt;li&gt;Not sure&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="5400" y="310" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Yj0qMt7jErC0cMvsFg-7-19" value="Did you add keyboard shortcuts to the changelog?" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="6500" y="400" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Yj0qMt7jErC0cMvsFg-7-20" value="&lt;ul&gt;&lt;li&gt;Yes&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="6620" y="349" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Yj0qMt7jErC0cMvsFg-7-21" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="6170" y="460.4500000000003" as="sourcePoint" />
+            <mxPoint x="6500" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yj0qMt7jErC0cMvsFg-7-22" value="&lt;ul&gt;&lt;li&gt;No&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="6760" y="415" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Yj0qMt7jErC0cMvsFg-7-23" value="&lt;p&gt;You should make sure you formatted the shortcuts correctly according to the guidelines given here:&lt;br&gt;&lt;/p&gt;&lt;p&gt;https://devdocs.jabref.org/contributing.html#format-of-keyboard-shortcuts&lt;br&gt;&lt;/p&gt;&lt;p&gt;Let me know when you have formatted your keyboard shortcuts correctly.&lt;br&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="6495" y="161" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Yj0qMt7jErC0cMvsFg-7-24" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="Yj0qMt7jErC0cMvsFg-7-19" target="Yj0qMt7jErC0cMvsFg-7-23" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="6030" y="400" as="sourcePoint" />
+            <mxPoint x="6280" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yj0qMt7jErC0cMvsFg-7-26" value="Please make sure you did not add yourself at JavaDoc&#39;s @authors. If you did, remove&amp;nbsp; or undo this before making your pull request.&lt;br&gt;&lt;br&gt;Your contributions are tracked and shown via the version control." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="5890" y="400" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Yj0qMt7jErC0cMvsFg-7-27" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.014;entryY=0.401;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="6770" y="460.4500000000003" as="sourcePoint" />
+            <mxPoint x="7096.08" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yj0qMt7jErC0cMvsFg-7-29" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Yj0qMt7jErC0cMvsFg-7-23" target="Yj0qMt7jErC0cMvsFg-7-39" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="6170" y="230.45000000000027" as="sourcePoint" />
+            <mxPoint x="6496.08" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yj0qMt7jErC0cMvsFg-7-30" value="&lt;ul&gt;&lt;li&gt;I did not add myself to the @authors&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="6160" y="415" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Yj0qMt7jErC0cMvsFg-7-39" value="Did you test your new code properly?" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="7100" y="400" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Yj0qMt7jErC0cMvsFg-7-40" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.014;entryY=0.401;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="7380" y="460.4500000000003" as="sourcePoint" />
+            <mxPoint x="7706.08" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yj0qMt7jErC0cMvsFg-7-42" value="&lt;ul&gt;&lt;li&gt;Yes&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="7370" y="419" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Yj0qMt7jErC0cMvsFg-7-43" value="&lt;p&gt;Writing test cases are import because they ensure that the code works. If you do not have time to make test cases you should at least run &quot;gradlew check&quot; in your console to make sure your changes have not broken anything.&lt;/p&gt;&lt;p&gt;Let me know when you are ready to move onto the next check.&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="7100" y="170" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Yj0qMt7jErC0cMvsFg-7-44" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="Yj0qMt7jErC0cMvsFg-7-43" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="7240" y="400" as="sourcePoint" />
+            <mxPoint x="7490" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yj0qMt7jErC0cMvsFg-7-45" value="&lt;ul&gt;&lt;li&gt;No&amp;nbsp;&lt;/li&gt;&lt;li&gt;Not sure&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="7220" y="329" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="c0LhYwUdTbU0FnFNNJrv-4" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Yj0qMt7jErC0cMvsFg-7-16" target="Yj0qMt7jErC0cMvsFg-7-26" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="5419.41" y="120" as="sourcePoint" />
+            <mxPoint x="5419.41" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c0LhYwUdTbU0FnFNNJrv-6" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="7379.999999999998" y="229.86000000000024" as="sourcePoint" />
+            <mxPoint x="7709.999999999998" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c0LhYwUdTbU0FnFNNJrv-7" value="Did you add a library to the code?" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="8320" y="400" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c0LhYwUdTbU0FnFNNJrv-8" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="8599.999999999998" y="460.4500000000003" as="sourcePoint" />
+            <mxPoint x="8930" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c0LhYwUdTbU0FnFNNJrv-9" value="&lt;ul&gt;&lt;li&gt;Yes&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="8450" y="350" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c0LhYwUdTbU0FnFNNJrv-10" value="&lt;p&gt;Please make sure you followed the proper steps for when you add libraries. The steps can be found here:&lt;br&gt;&lt;/p&gt;&lt;p&gt;https://devdocs.jabref.org/contributing#when-adding-a-library&lt;br&gt;&lt;/p&gt;&lt;p&gt;Let me know when you have done so.&lt;br&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="8320" y="170" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c0LhYwUdTbU0FnFNNJrv-11" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="c0LhYwUdTbU0FnFNNJrv-10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="8459.999999999998" y="400" as="sourcePoint" />
+            <mxPoint x="8710" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c0LhYwUdTbU0FnFNNJrv-12" value="&lt;ul&gt;&lt;li&gt;No&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="8595" y="419" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c0LhYwUdTbU0FnFNNJrv-13" value="Okay great now we can finally make the pull request!" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="10150" y="400" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c0LhYwUdTbU0FnFNNJrv-14" value="Did you add a localization.lang entry?" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="7710" y="400" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c0LhYwUdTbU0FnFNNJrv-15" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.014;entryY=0.401;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="7989.999999999998" y="460.4500000000003" as="sourcePoint" />
+            <mxPoint x="8316.08" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c0LhYwUdTbU0FnFNNJrv-16" value="&lt;ul&gt;&lt;li&gt;Yes&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="7840" y="355" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c0LhYwUdTbU0FnFNNJrv-17" value="&lt;p&gt;You should make sure you add a new&amp;nbsp;&lt;br&gt;&quot;Localization.lang(&quot;KEY&quot;) to a java file. for more information take a look at this page:&lt;br&gt;https://devdocs.jabref.org/contributing#when-adding-a-new-localizationlang-entry&lt;br&gt;&lt;/p&gt;&lt;p&gt;Let me know when you are ready to&amp;nbsp; move on!&lt;br&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="7710" y="170" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c0LhYwUdTbU0FnFNNJrv-18" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="c0LhYwUdTbU0FnFNNJrv-17" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="7849.999999999998" y="400" as="sourcePoint" />
+            <mxPoint x="8100" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c0LhYwUdTbU0FnFNNJrv-20" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="7989.999999999998" y="229.86000000000013" as="sourcePoint" />
+            <mxPoint x="8319.999999999998" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c0LhYwUdTbU0FnFNNJrv-22" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="8599.999999999998" y="230.0000000000001" as="sourcePoint" />
+            <mxPoint x="8929.999999999998" y="400.14" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c0LhYwUdTbU0FnFNNJrv-27" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="c0LhYwUdTbU0FnFNNJrv-29" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10429.999999999998" y="464.4500000000003" as="sourcePoint" />
+            <mxPoint x="10756.08" y="464" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c0LhYwUdTbU0FnFNNJrv-29" value="Here is a nice guide on how to make a pull request. Make sure you select the correct branches.&lt;br&gt;&lt;br&gt;https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork&lt;br&gt;&lt;br&gt;Alternatively if you are not quite done yet you can also make a draft pull request.&amp;nbsp;&lt;br&gt;&lt;br&gt;After submitting your pull request you have to wait for feedback from the developers. Let me know when that happens." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="10760" y="350" width="280" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="c0LhYwUdTbU0FnFNNJrv-30" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="11039.999999999998" y="460.4500000000003" as="sourcePoint" />
+            <mxPoint x="11369.999999999998" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c0LhYwUdTbU0FnFNNJrv-35" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="11649.999999999998" y="460.4500000000003" as="sourcePoint" />
+            <mxPoint x="11979.999999999998" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c0LhYwUdTbU0FnFNNJrv-36" value="Did your pull request require any changes?" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="11370" y="400" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c0LhYwUdTbU0FnFNNJrv-37" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="ejzxoBuczvLx11YKU5o6-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="12320" y="540" as="sourcePoint" />
+            <mxPoint x="12120" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c0LhYwUdTbU0FnFNNJrv-41" value="Do you want to go over the checklist again to make sure your changes comply with the formal requirements?" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="11980" y="600" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c0LhYwUdTbU0FnFNNJrv-44" value="&lt;div&gt;&lt;ul&gt;&lt;li&gt;No&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="11880" y="640" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c0LhYwUdTbU0FnFNNJrv-45" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="c0LhYwUdTbU0FnFNNJrv-41" target="c0LhYwUdTbU0FnFNNJrv-52" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="12259.999999999998" y="664.2700000000004" as="sourcePoint" />
+            <mxPoint x="12590" y="663.8200000000002" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="11890" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c0LhYwUdTbU0FnFNNJrv-46" value="Great you should now be done with this contribution!&amp;nbsp;&lt;br&gt;If you want to ask any other questions feel free to ask!" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="12590" y="400" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c0LhYwUdTbU0FnFNNJrv-48" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="c0LhYwUdTbU0FnFNNJrv-50" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="12119.29" y="720" as="sourcePoint" />
+            <mxPoint x="12119.29" y="795.0000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c0LhYwUdTbU0FnFNNJrv-50" value="(checklist)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="11980" y="800" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c0LhYwUdTbU0FnFNNJrv-51" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="c0LhYwUdTbU0FnFNNJrv-50" target="c0LhYwUdTbU0FnFNNJrv-52" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="12110" y="680" as="sourcePoint" />
+            <mxPoint x="11050" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c0LhYwUdTbU0FnFNNJrv-52" value="Make a comment on the pull request on how you addressed the fixes. And update the code of the pull request.&lt;br&gt;&lt;br&gt;Again make sure you make a descriptive comment.&lt;br&gt;https://github.com/joelparkerhenderson/git-commit-message&lt;br&gt;&lt;br&gt;Now that you have updated your pull request you will have to wait for feedback from the developers." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="11370" y="680" width="280" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="c0LhYwUdTbU0FnFNNJrv-54" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;ul&gt;&lt;li&gt;I got Feedback&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="11490" y="630" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c0LhYwUdTbU0FnFNNJrv-57" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="c0LhYwUdTbU0FnFNNJrv-52" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="11510" y="600" as="sourcePoint" />
+            <mxPoint x="11510" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="34f57W0Afwo3D3QsiPn6-1" value="Are you planning on making any major changes?" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2550" y="400" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="34f57W0Afwo3D3QsiPn6-2" value="&lt;ul&gt;&lt;li&gt;Yes&lt;/li&gt;&lt;li&gt;Not sure&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="2680" y="314" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="34f57W0Afwo3D3QsiPn6-3" value="&lt;p&gt;Before you make any mayor/architectiual changes make sure to first discuss this with the core developers. This can save you a lot of time.&lt;/p&gt;&lt;p&gt;Some fundamental design decisions can be found on this list of Architectual Decsion Records:&lt;br&gt;&lt;/p&gt;&lt;p&gt;https://devdocs.jabref.org/decisions/&lt;br&gt;&lt;/p&gt;&lt;p&gt;If you do decide to make architectural changes you should document it.&lt;br&gt;&lt;/p&gt;&lt;p&gt;https://devdocs.jabref.org/contributing#when-making-an-architectural-decision&lt;br&gt;&lt;/p&gt;&lt;p&gt;If you are sure you want to keep going to the next step let me know!&lt;br&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2550" y="20" width="280" height="261" as="geometry" />
+        </mxCell>
+        <mxCell id="34f57W0Afwo3D3QsiPn6-4" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="34f57W0Afwo3D3QsiPn6-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2690" y="400" as="sourcePoint" />
+            <mxPoint x="2910" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="34f57W0Afwo3D3QsiPn6-5" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2830" y="459" as="sourcePoint" />
+            <mxPoint x="3120" y="459" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="34f57W0Afwo3D3QsiPn6-6" value="&lt;ul&gt;&lt;li&gt;There is an update&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="11030" y="405" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hwSbKdSt1AXH0gywJMob-3" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="dYkcCDGefo7-1RZVFXdm-31" target="Yj0qMt7jErC0cMvsFg-7-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4510" y="330" as="sourcePoint" />
+            <mxPoint x="4560" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ejzxoBuczvLx11YKU5o6-1" value="If there are any problems you should update the code to adress these problems." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="11980" y="400" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ejzxoBuczvLx11YKU5o6-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="c0LhYwUdTbU0FnFNNJrv-36" target="c0LhYwUdTbU0FnFNNJrv-46" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="12020" y="590" as="sourcePoint" />
+            <mxPoint x="12070" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="11650" y="350" />
+              <mxPoint x="12590" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XHMM7eMXNdWCrjPNphh2-1" value="Have you pushed your commits containing your contribution to your fork and accompanying branch?" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="8930" y="400" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="XHMM7eMXNdWCrjPNphh2-2" value="&lt;ul&gt;&lt;li&gt;Yes&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="9200" y="425" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XHMM7eMXNdWCrjPNphh2-3" value="&lt;p&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22endArrow%3Dclassic%3Bhtml%3D1%3BexitX%3D1%3BexitY%3D0.5%3BexitDx%3D0%3BexitDy%3D0%3BentryX%3D-0.014%3BentryY%3D0.401%3BentryDx%3D0%3BentryDy%3D0%3BentryPerimeter%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20width%3D%2250%22%20height%3D%2250%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%224580%22%20y%3D%22460.4500000000003%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20x%3D%224906.08%22%20y%3D%22460%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%asdfasdfasdfasdf3E%3C%2FmxGraphModel%3E&lt;/span&gt;Make sure you write a good commit message, if you want more information on how to write a commit message click here:&lt;/p&gt;&lt;p&gt;https://github.com/joelparkerhenderson/git-commit-message&lt;br&gt;&lt;/p&gt;&lt;p&gt;Alright let me know when you have done so!&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="8930" y="120" width="280" height="169" as="geometry" />
+        </mxCell>
+        <mxCell id="XHMM7eMXNdWCrjPNphh2-4" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="XHMM7eMXNdWCrjPNphh2-1" target="XHMM7eMXNdWCrjPNphh2-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="9100" y="409.9999999999998" as="sourcePoint" />
+            <mxPoint x="9320" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XHMM7eMXNdWCrjPNphh2-5" value="&lt;ul&gt;&lt;li&gt;No I will do that&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="9050" y="334" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XHMM7eMXNdWCrjPNphh2-6" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="9210" y="460.45000000000016" as="sourcePoint" />
+            <mxPoint x="9540" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XHMM7eMXNdWCrjPNphh2-7" value="Great! lets check what you need to do to comply with the formal requirements before we make a pull request." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="4870" y="400" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="XHMM7eMXNdWCrjPNphh2-8" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="5150" y="460.4500000000003" as="sourcePoint" />
+            <mxPoint x="5280" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XHMM7eMXNdWCrjPNphh2-9" value="Did you make a good commit message?" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="9540" y="400" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="XHMM7eMXNdWCrjPNphh2-10" value="&lt;ul&gt;&lt;li&gt;Yes&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="9810" y="415" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XHMM7eMXNdWCrjPNphh2-11" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.014;entryY=0.401;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="9820" y="460.4500000000003" as="sourcePoint" />
+            <mxPoint x="10146.08" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XHMM7eMXNdWCrjPNphh2-12" value="&lt;p&gt;Make sure you write a good commit message, if you want more information on how to write a commit message click here:&lt;br&gt;&lt;/p&gt;&lt;p&gt;https://github.com/joelparkerhenderson/git-commit-message&lt;br&gt;&lt;/p&gt;&lt;p&gt;Here is a guide on how to change your old commit messages:&lt;br&gt;&lt;/p&gt;&lt;p&gt;https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/changing-a-commit-message&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Let me know&amp;nbsp; when you are happy with you commit (message).&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="9540" y="50" width="280" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="XHMM7eMXNdWCrjPNphh2-13" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="XHMM7eMXNdWCrjPNphh2-12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="9680" y="400" as="sourcePoint" />
+            <mxPoint x="9930" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XHMM7eMXNdWCrjPNphh2-14" value="&lt;ul&gt;&lt;li&gt;No&lt;/li&gt;&lt;li&gt;Not sure&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="9660" y="334" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XHMM7eMXNdWCrjPNphh2-15" value="" style="endArrow=classic;html=1;exitX=0.999;exitY=0.656;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" edge="1" source="XHMM7eMXNdWCrjPNphh2-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="9820" y="230.45000000000027" as="sourcePoint" />
+            <mxPoint x="10150" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XHMM7eMXNdWCrjPNphh2-16" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1" source="XHMM7eMXNdWCrjPNphh2-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="9210" y="230.45000000000027" as="sourcePoint" />
+            <mxPoint x="10150" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="9070" />
+              <mxPoint x="10150" />
+              <mxPoint x="10150" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XHMM7eMXNdWCrjPNphh2-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="34f57W0Afwo3D3QsiPn6-3" target="dYkcCDGefo7-1RZVFXdm-14" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2880" y="410" as="sourcePoint" />
+            <mxPoint x="2930" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2930" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7JVKthvS6GZpn__P1BS6-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="399" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7JVKthvS6GZpn__P1BS6-3" value="&lt;p&gt;Hello, I am [Chat Bot] you can ask me question related to making pull request.&amp;nbsp; How can I help you?&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="399" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7JVKthvS6GZpn__P1BS6-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7JVKthvS6GZpn__P1BS6-3" target="u2qH6tRN7u9M0dVrYxi7-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="260" as="sourcePoint" />
+            <mxPoint x="330" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7JVKthvS6GZpn__P1BS6-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="399" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7JVKthvS6GZpn__P1BS6-16" value="&lt;p&gt;Hello, I am [Chat Bot] you can ask me question related to making pull request.&amp;nbsp; How can I help you?&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="399" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7JVKthvS6GZpn__P1BS6-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7JVKthvS6GZpn__P1BS6-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-190" y="259" as="sourcePoint" />
+            <mxPoint x="-70" y="459" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7JVKthvS6GZpn__P1BS6-18" value="Feel free to ask me what to do if you are not quite sure what to do." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="159" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7JVKthvS6GZpn__P1BS6-19" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="7JVKthvS6GZpn__P1BS6-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="399" as="sourcePoint" />
+            <mxPoint x="290" y="359" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7JVKthvS6GZpn__P1BS6-20" value="&lt;ul&gt;&lt;li&gt;I want to ask specific questions&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="329" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7JVKthvS6GZpn__P1BS6-22" value="&lt;ul&gt;&lt;li&gt;No&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="2820" y="404" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7JVKthvS6GZpn__P1BS6-24" value="&lt;ul&gt;&lt;li&gt;Next step&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="2870" y="260" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7JVKthvS6GZpn__P1BS6-25" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;ul&gt;&lt;li&gt;No&lt;/li&gt;&lt;li&gt;Not sure&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="4375" y="340" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7JVKthvS6GZpn__P1BS6-26" value="&lt;ul&gt;&lt;li&gt;Done&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="5560" y="161" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7JVKthvS6GZpn__P1BS6-27" value="&lt;ul&gt;&lt;li&gt;I&#39;m done&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="6770" y="185" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7JVKthvS6GZpn__P1BS6-28" value="&lt;ul&gt;&lt;li&gt;Ready&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="7390" y="196" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7JVKthvS6GZpn__P1BS6-29" value="&lt;ul&gt;&lt;li&gt;No&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="7980" y="425" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7JVKthvS6GZpn__P1BS6-30" value="&lt;ul&gt;&lt;li&gt;Ready&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="7990" y="194" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7JVKthvS6GZpn__P1BS6-31" value="&lt;ul&gt;&lt;li&gt;Done&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="8590" y="196" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7JVKthvS6GZpn__P1BS6-32" value="&lt;p&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22endArrow%3Dclassic%3Bhtml%3D1%3BexitX%3D1%3BexitY%3D0.5%3BexitDx%3D0%3BexitDy%3D0%3BentryX%3D-0.014%3BentryY%3D0.401%3BentryDx%3D0%3BentryDy%3D0%3BentryPerimeter%3D0%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20width%3D%2250%22%20height%3D%2250%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%224580%22%20y%3D%22460.4500000000003%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20x%3D%224906.08%22%20y%3D%22460%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%asdfasdfasdfasdf3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;/p&gt;Here is a nice guide on how to commit your code to GitHub:&lt;br&gt;https://github.com/git-guides/git-commit&lt;br&gt;&lt;br&gt;Also make sure you add a good commit message, for more information go here:&lt;br&gt;https://github.com/joelparkerhenderson/git-commit-message&lt;br&gt;&lt;br&gt;After you have committed your changes make sure to push it to your accompanying branch!&lt;br&gt;https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository#about-git-push&lt;br&gt;&lt;br&gt;Let me know you are ready!&lt;br&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="9220" y="50" width="280" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="7JVKthvS6GZpn__P1BS6-33" value="" style="endArrow=classic;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XHMM7eMXNdWCrjPNphh2-1" target="7JVKthvS6GZpn__P1BS6-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="9080" y="410" as="sourcePoint" />
+            <mxPoint x="9080" y="299" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="9210" y="380" />
+              <mxPoint x="9360" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7JVKthvS6GZpn__P1BS6-34" value="&lt;ul&gt;&lt;li&gt;How do I do that?&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="9190" y="334" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7JVKthvS6GZpn__P1BS6-35" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="7JVKthvS6GZpn__P1BS6-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="9080" y="70" as="sourcePoint" />
+            <mxPoint x="10150" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="9360" />
+              <mxPoint x="10150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7JVKthvS6GZpn__P1BS6-36" value="&lt;ul&gt;&lt;li&gt;Ready&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="9810" y="185" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7JVKthvS6GZpn__P1BS6-37" value="&lt;div&gt;&lt;ul&gt;&lt;li&gt;No&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="11650" y="300" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7JVKthvS6GZpn__P1BS6-38" value="&lt;div&gt;&lt;ul&gt;&lt;li&gt;Yes&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="11650" y="410" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7JVKthvS6GZpn__P1BS6-39" value="&lt;div&gt;&lt;ul&gt;&lt;li&gt;Yes&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="12120" y="720" width="80" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
