@@ -1096,9 +1096,10 @@ responses:
       text: Did you add a library to the code?
   utter_nY0fP5pqG8:
     - buttons:
-        - payload: /name_branch
-          title: 'URL: What should I name my branch?'
-          type: postback
+        - title: 'URL: What should I name my branch?'
+          type: web_url
+          url: >-
+            https://dev.to/varbsan/a-simplified-convention-for-naming-branches-and-commits-in-git-il4
       language: en
       metadata: null
       text: >-
